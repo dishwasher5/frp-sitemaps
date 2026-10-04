@@ -1,0 +1,57 @@
+name: Build sitemaps
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # daily, 06:17 UTC
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Re-check every page now (first run, or after changing rules)"
+        type: boolean
+        default: false
+      accept_drop:
+        description: "Publish even if a sitemap shrank more than the guard allows"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-sitemaps
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check pages and build sitemaps
+        run: >
+          python build_sitemaps.py
+          ${{ inputs.full && '--full' || '' }}
+          ${{ inputs.accept_drop && '--accept-drop' || '' }}
+
+      - name: Commit results
+        run: |
+          git config user.name "frp-sitemap-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A state output
+          git diff --cached --quiet || git commit -m "Sitemap build $(date -u +%F)"
+          git push
+
+      - name: Report
+        if: always()
+        run: |
+          [ -f output/report.md ] && cat output/report.md >> "$GITHUB_STEP_SUMMARY"
+          if [ -f output/ALERT.md ]; then
+            cat output/ALERT.md
+            cat output/ALERT.md >> "$GITHUB_STEP_SUMMARY"
+            exit 1   # a failed run makes GitHub email you
+          fi

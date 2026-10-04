@@ -1,0 +1,60 @@
+# Settings for build_sitemaps.py. Edit, commit, and the next run uses them.
+
+site = "https://www.findroofingpros.com"
+user_agent = "Mozilla/5.0 (compatible; FRPSitemapBuilder/1.0; +https://www.findroofingpros.com)"
+
+# Crawl pace. 2 requests/second keeps load on the site negligible.
+requests_per_second = 2.0
+workers = 4
+timeout_seconds = 30
+
+# How often each page is re-checked. Pages currently in a sitemap are
+# re-checked daily, so a page that turns thin drops out within a day.
+recheck_passing_days = 1
+recheck_failing_days = 7
+max_checks_per_run = 9000
+max_runtime_minutes = 300
+
+# If more than this share of checks in a run get 403/429/5xx/timeouts,
+# the site is probably blocking or struggling: stop and publish nothing.
+max_transient_ratio = 0.2
+
+[rules]
+# A page is listed only if it passes every rule below.
+min_contractors = 3          # from the page's microdata numberOfItems (max 9 per results page)
+require_index = true         # robots meta / X-Robots-Tag must not say noindex
+require_self_canonical = true
+
+[guard]
+# Never publish a sitemap that shrank by more than this share in one run.
+# Override once with the "accept_drop" option when running the workflow by hand.
+max_drop = 0.20
+
+# One block per sitemap. Candidate URLs come from BD's own (unfiltered)
+# master sitemaps; "derive_drop_first" sources have their first path segment
+# removed (e.g. /south-carolina/aiken/roof-repair → /aiken/roof-repair).
+# "min_contractors" here overrides [rules] for that sitemap.
+
+[[group]]
+name = "city"
+output = "sitemap-city.xml"
+min_urls = 200
+sources = ["filedata/cache/xml-sitemaps/profile_search_results-city_name-1.xml"]
+derive_drop_first = []
+exclude = []                 # exact paths to never list, e.g. "springfield"
+
+[[group]]
+name = "city-service"
+output = "sitemap-city-service.xml"
+min_urls = 200
+sources = ["filedata/cache/xml-sitemaps/profile_search_results-city_name-service_name-1.xml"]
+derive_drop_first = ["filedata/cache/xml-sitemaps/profile_search_results-state_name-city_name-service_name-1.xml"]
+exclude = []
+
+[[group]]
+name = "state-service"
+output = "sitemap-state-service.xml"
+min_urls = 100
+sources = ["filedata/cache/xml-sitemaps/profile_search_results-state_name-service_name-1.xml"]
+derive_drop_first = []
+exclude = []
