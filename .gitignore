@@ -1,3 +1,7 @@
 __pycache__/
 *.tmp
 .DS_Store
+redirects/301-*.csv
+redirects/target-status.json
+redirects/target-status.json.tmp
+redirects/unmapped.txt
