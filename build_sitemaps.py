@@ -176,9 +176,18 @@ def candidate_sets(cfg, group):
     site = cfg["site"].rstrip("/") + "/"
     urls = set()
     native = set()
-    plain = [(s, False) for s in group["sources"]]
-    derived = [(s, True) for s in group.get("derive_drop_first", [])]
-    for src, drop_first in plain + derived:
+    # Allow-listed sources only contribute paths named in a file (one path per
+    # line): e.g. the flat /{city} URLs kept as "Which Springfield?" choosers.
+    allow = None
+    if group.get("allow_list"):
+        with open(os.path.join(ROOT, group["allow_list"]), encoding="utf-8") as f:
+            allow = {line.strip().strip("/") for line in f if line.strip()}
+    plain = [(s, None) for s in group["sources"]]
+    derived = ([(s, "first") for s in group.get("derive_drop_first", [])]
+               + [(s, "last") for s in group.get("derive_drop_last", [])])
+    allowed = [(s, "allow") for s in group.get("allow_sources", [])]
+    segments = group.get("segments")
+    for src, mode in plain + derived + allowed:
         status, _, body = fetch(site + src, cfg)
         locs = LOC_RE.findall(body) if status == 200 else []
         if not locs:
@@ -186,14 +195,21 @@ def candidate_sets(cfg, group):
             return None
         for loc in locs:
             path = loc.replace(site, "").strip("/")
-            if drop_first:
-                parts = path.split("/")
+            parts = path.split("/")
+            if mode in ("first", "last"):
                 if len(parts) < 2:
                     continue
-                path = "/".join(parts[1:])
+                path = "/".join(parts[1:] if mode == "first" else parts[:-1])
+                if segments and len(path.split("/")) != segments:
+                    continue
+            elif mode == "allow":
+                if allow is None or path not in allow:
+                    continue
+            elif segments and len(parts) != segments:
+                continue
             if path:
                 urls.add(site + path)
-                if not drop_first:
+                if mode in (None, "allow"):
                     native.add(site + path)
     excluded = {site + p.strip("/") for p in group.get("exclude", [])}
     return urls - excluded, native - excluded

@@ -42,16 +42,30 @@ max_drop = 0.20
 name = "city"
 output = "sitemap-city.xml"
 min_urls = 200
-sources = ["filedata/cache/xml-sitemaps/profile_search_results-city_name-1.xml"]
+# C1: /{state}/{city} is the canonical city URL (BD ticket #599442). BD has no
+# state/city sitemap, so the pairs come from the profile and state/city/service
+# sitemaps with the last segment dropped. The flat /{city} URLs are 301'd,
+# except the "Which Springfield?" choosers in redirects/chooser-cities.txt.
+sources = []
 derive_drop_first = []
-exclude = []                 # exact paths to never list, e.g. "springfield"
+derive_drop_last = ["filedata/cache/xml-sitemaps/profile-filename-1.xml",
+                    "filedata/cache/xml-sitemaps/profile_search_results-state_name-city_name-service_name-1.xml"]
+segments = 2
+allow_sources = ["filedata/cache/xml-sitemaps/profile_search_results-city_name-1.xml"]
+allow_list = "redirects/chooser-cities.txt"
+exclude = ["anchorage/roofing-contractor", "united-states/roofing-contractor"]   # odd profile URLs, not cities
 
 [[group]]
 name = "city-service"
 output = "sitemap-city-service.xml"
 min_urls = 200
-sources = ["filedata/cache/xml-sitemaps/profile_search_results-city_name-service_name-1.xml"]
-derive_drop_first = ["filedata/cache/xml-sitemaps/profile_search_results-state_name-city_name-service_name-1.xml"]
+# C1: /{state}/{city}/{service} is canonical; flat /{city}/{service} only for
+# chooser cities (redirects/chooser-city-services.txt).
+sources = ["filedata/cache/xml-sitemaps/profile_search_results-state_name-city_name-service_name-1.xml"]
+derive_drop_first = []
+segments = 3
+allow_sources = ["filedata/cache/xml-sitemaps/profile_search_results-city_name-service_name-1.xml"]
+allow_list = "redirects/chooser-city-services.txt"
 exclude = []
 
 [[group]]

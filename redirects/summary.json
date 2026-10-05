@@ -1,0 +1,15 @@
+{
+  "flat_cities": 4035,
+  "skipped_state_slugs": 8,
+  "city_301": 3821,
+  "city_301_single_state": 3477,
+  "city_301_clear_leader": 344,
+  "chooser_cities": 206,
+  "flat_city_services": 7140,
+  "city_service_301": 5998,
+  "city_service_301_to_city_fallback": 511,
+  "chooser_city_services": 585,
+  "unmapped": 0,
+  "total_301_rows": 10330,
+  "csv_files": 6
+}
