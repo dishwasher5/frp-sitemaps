@@ -1,14 +1,14 @@
 <?php
 /* ============================================================
-   FRP — SITEMAP PROXY WIDGET (v2, BD-sandbox-safe)
+   FRP - SITEMAP PROXY WIDGET (v2, BD-sandbox-safe)
    ============================================================
    Serves a sitemap built by the frp-sitemaps GitHub repo at the
    site's existing sitemap URL. Use one copy per sitemap page,
-   changing only $FILE:
+   changing only $SITEMAP_FILE:
 
-     sitemap-city-filtered          → 'sitemap-city.xml'
-     sitemap-city-service-filtered  → 'sitemap-city-service.xml'
-     sitemap-state-service-filtered → 'sitemap-state-service.xml'
+     sitemap-city-filtered          -> 'sitemap-city.xml'
+     sitemap-city-service-filtered  -> 'sitemap-city-service.xml'
+     sitemap-state-service-filtered -> 'sitemap-state-service.xml'
 
    If GitHub can't be reached, or returns something that isn't a
    real sitemap, the last good copy is served (or a 503, which makes
@@ -18,13 +18,13 @@
    BD widgets (the old updater and output widgets).
    ============================================================ */
 
-$FILE        = 'sitemap-city.xml';     // ← change per page (see list above)
+$SITEMAP_FILE = 'sitemap-city.xml';     // <- change per page (see list above)
 $GITHUB_USER = 'dishwasher5';
 $REPO        = 'frp-sitemaps';
 $MIN_URLS    = 50;                     // a fetched file with fewer URLs than this is treated as broken
 
-$SOURCE    = 'https://raw.githubusercontent.com/' . $GITHUB_USER . '/' . $REPO . '/main/output/' . $FILE;
-$LAST_GOOD = sys_get_temp_dir() . '/frp-proxy-' . $FILE; // safety net only
+$SOURCE    = 'https://raw.githubusercontent.com/' . $GITHUB_USER . '/' . $REPO . '/main/output/' . $SITEMAP_FILE;
+$LAST_GOOD = sys_get_temp_dir() . '/frp-proxy-' . $SITEMAP_FILE; // safety net only
 
 function frp_count_locs($xml, $stopAt) {
     $n = 0;
@@ -67,3 +67,4 @@ if ($valid) {
     echo 'Sitemap temporarily unavailable.';
 }
 exit;
+?>
