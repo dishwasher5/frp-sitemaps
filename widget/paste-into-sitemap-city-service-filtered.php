@@ -18,7 +18,7 @@
    BD widgets (the old updater and output widgets).
    ============================================================ */
 
-$FILE        = 'sitemap-city.xml';     // ← change per page (see list above)
+$FILE        = 'sitemap-city-service.xml';     // ← change per page (see list above)
 $GITHUB_USER = 'dishwasher5';
 $REPO        = 'frp-sitemaps';
 $MIN_URLS    = 50;                     // a fetched file with fewer URLs than this is treated as broken
