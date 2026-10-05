@@ -34,6 +34,9 @@ max_drop = 0.20
 # master sitemaps; "derive_drop_first" sources have their first path segment
 # removed (e.g. /south-carolina/aiken/roof-repair → /aiken/roof-repair).
 # "min_contractors" here overrides [rules] for that sitemap.
+# "priority" decides which sitemap gets a URL that several produce: state and
+# city slugs can collide (/new-york/roof-repair, /washington/roof-repair are
+# state-service pages, but also look like city-service URLs). Higher wins.
 
 [[group]]
 name = "city"
@@ -55,6 +58,7 @@ exclude = []
 name = "state-service"
 output = "sitemap-state-service.xml"
 min_urls = 100
+priority = 1
 sources = ["filedata/cache/xml-sitemaps/profile_search_results-state_name-service_name-1.xml"]
 derive_drop_first = []
 exclude = []

@@ -167,8 +167,15 @@ def check_url(url, cfg, group, limiter, deadline):
 
 def candidates(cfg, group):
     """All candidate URLs for a group, or None if any source can't be read."""
+    result = candidate_sets(cfg, group)
+    return None if result is None else sorted(result[0])
+
+
+def candidate_sets(cfg, group):
+    """(all candidate URLs, URLs listed directly in a plain source), or None."""
     site = cfg["site"].rstrip("/") + "/"
     urls = set()
+    native = set()
     plain = [(s, False) for s in group["sources"]]
     derived = [(s, True) for s in group.get("derive_drop_first", [])]
     for src, drop_first in plain + derived:
@@ -186,8 +193,31 @@ def candidates(cfg, group):
                 path = "/".join(parts[1:])
             if path:
                 urls.add(site + path)
+                if not drop_first:
+                    native.add(site + path)
     excluded = {site + p.strip("/") for p in group.get("exclude", [])}
-    return sorted(urls - excluded)
+    return urls - excluded, native - excluded
+
+
+def assign_groups(cfg, sets):
+    """Give every URL to exactly one sitemap. Some URLs are produced by several
+    groups: /new-york/roof-repair is both a state-service page and, via the
+    city of New York, a city-service URL (BD renders the state-service page).
+    The group with the higher `priority` wins; on a tie, a group whose BD
+    master lists the URL directly beats one that only derives it; after that,
+    the first group in config order wins."""
+    owner = {}
+    for group in cfg["group"]:
+        name = group["name"]
+        if name not in sets:
+            continue
+        urls, native = sets[name]
+        rank_base = group.get("priority", 0)
+        for url in urls:
+            rank = (rank_base, url in native)
+            if url not in owner or rank > owner[url][1]:
+                owner[url] = (name, rank)
+    return {name: sorted(u for u, (g, _) in owner.items() if g == name) for name in sets}
 
 
 # ── Sitemap files ───────────────────────────────────────────────────────
@@ -300,16 +330,18 @@ def main():
 
     # 1. Candidates per group. A group whose source can't be read is skipped
     #    entirely, so its current sitemap stays as it is.
-    group_cands = {}
+    sets = {}
     for group in cfg["group"]:
         print(f"Loading candidates for {group['name']}…")
-        cands = candidates(cfg, group)
-        if cands is None:
+        result = candidate_sets(cfg, group)
+        if result is None:
             alerts.append(f"**{group['name']}**: a BD master sitemap could not be read, "
                           f"so this sitemap was left unchanged.")
             continue
-        group_cands[group["name"]] = cands
-        print(f"  {len(cands)} candidates")
+        sets[group["name"]] = result
+    group_cands = assign_groups(cfg, sets)
+    for name, cands in group_cands.items():
+        print(f"  {name}: {len(cands)} candidates")
 
     # 2. Decide what to check: new URLs first, then listed pages, then failing ones.
     jobs = []
