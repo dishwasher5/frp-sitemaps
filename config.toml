@@ -55,6 +55,15 @@ derive_drop_first = ["filedata/cache/xml-sitemaps/profile_search_results-state_n
 exclude = []
 
 [[group]]
+name = "state"
+output = "sitemap-state.xml"
+min_urls = 40                # only ~51 states (BD's own file lists 24 of them twice)
+priority = 1
+sources = ["filedata/cache/xml-sitemaps/profile_search_results-state_name-1.xml"]
+derive_drop_first = []
+exclude = []
+
+[[group]]
 name = "state-service"
 output = "sitemap-state-service.xml"
 min_urls = 100
