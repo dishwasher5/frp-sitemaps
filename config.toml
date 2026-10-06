@@ -78,6 +78,16 @@ derive_drop_first = []
 exclude = []
 
 [[group]]
+name = "posts"
+output = "sitemap-posts.xml"
+min_urls = 30                # 45 posts on 2026-10-05
+min_contractors = 0          # not results pages: only status/index/canonical apply
+lastmod = "dateModified"     # BD's own post sitemap stamps every post with one date (L9)
+sources = ["filedata/cache/xml-sitemaps/data_post-data_filename-post_filename-1.xml"]
+derive_drop_first = []
+exclude = []
+
+[[group]]
 name = "state-service"
 output = "sitemap-state-service.xml"
 min_urls = 100
@@ -85,3 +95,18 @@ priority = 1
 sources = ["filedata/cache/xml-sitemaps/profile_search_results-state_name-service_name-1.xml"]
 derive_drop_first = []
 exclude = []
+
+[[group]]
+name = "static"
+output = "sitemap-static.xml"
+min_urls = 10                # 13 URLs of its own on 2026-10-06 (the rest belong to other sitemaps)
+min_contractors = 0          # mostly not results pages: only status/index/canonical apply
+priority = -1                # URLs another sitemap also lists (city, state-service) stay there
+sources = ["filedata/cache/xml-sitemaps/static_pages-static_pages-1.xml"]
+derive_drop_first = []
+# M6: BD's static-pages sitemap also lists these. /search is robots-disallowed,
+# /join-success is a thank-you page, the rest are sitemap files.
+exclude = ["search", "sitesearch", "join-success", "sitemap.xml",
+           "sitemap-city-filtered.xml", "sitemap-city-service-filtered.xml",
+           "sitemap-state-service-filtered.xml", "sitemap-state-filtered.xml",
+           "sitemap-posts-filtered.xml", "sitemap-static-filtered.xml"]

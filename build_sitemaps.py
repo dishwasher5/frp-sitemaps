@@ -44,6 +44,8 @@ LOC_RE = re.compile(r"<loc>\s*(.*?)\s*</loc>", re.S)
 META_RE = re.compile(r"<meta\b[^>]*>", re.I)
 LINK_RE = re.compile(r"<link\b[^>]*>", re.I)
 ATTR_RE = re.compile(r"""([a-zA-Z_:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')""")
+# JSON-LD dateModified (blog posts), W3C datetime as the sitemap lastmod expects
+MODIFIED_RE = re.compile(r'"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2}(?:T[0-9:.]+(?:Z|[+-]\d{2}:\d{2}))?)"')
 
 TRANSIENT = "transient"
 
@@ -104,7 +106,10 @@ def _norm(url):
 
 def inspect(url, status, headers, body):
     """Extract the signals the rules need from one fetched page."""
-    info = {"status": status, "noindex": False, "canonical": None, "count": None}
+    info = {"status": status, "noindex": False, "canonical": None, "count": None, "modified": None}
+    m = MODIFIED_RE.search(body)
+    if m:
+        info["modified"] = m.group(1)
     if "noindex" in headers.get("x-robots-tag", "").lower():
         info["noindex"] = True
     for tag in META_RE.findall(body):
@@ -140,6 +145,8 @@ def verdict(url, info, rules, min_contractors):
             return False, "no-canonical"
         if _norm(info["canonical"]) != _norm(url):
             return False, "canonical-elsewhere"
+    if min_contractors <= 0:  # not a results page (e.g. blog posts)
+        return True, ""
     if info["count"] is None:
         return False, "no-count"
     if info["count"] < min_contractors:
@@ -160,7 +167,8 @@ def check_url(url, cfg, group, limiter, deadline):
         info = inspect(url, status, headers, body)
         ok, reason = verdict(url, info, cfg["rules"], min_c)
     return url, {"ok": ok, "reason": reason, "count": info["count"],
-                 "status": info["status"], "noindex": info["noindex"]}
+                 "status": info["status"], "noindex": info["noindex"],
+                 "modified": info["modified"]}
 
 
 # ── Candidates ──────────────────────────────────────────────────────────
@@ -194,7 +202,7 @@ def candidate_sets(cfg, group):
             print(f"  ! source unreadable or empty: {src} (status {status})")
             return None
         for loc in locs:
-            path = loc.replace(site, "").strip("/")
+            path = re.sub(r"^https?://[^/]+", "", loc).strip("/")   # BD lists the homepage without a trailing slash
             parts = path.split("/")
             if mode in ("first", "last"):
                 if len(parts) < 2:
@@ -207,7 +215,7 @@ def candidate_sets(cfg, group):
                     continue
             elif segments and len(parts) != segments:
                 continue
-            if path:
+            if path or mode is None:   # an empty path is the homepage (static pages list it)
                 urls.add(site + path)
                 if mode in (None, "allow"):
                     native.add(site + path)
@@ -394,7 +402,7 @@ def main():
         changed = rec.get("ok") != r["ok"] or rec.get("count") != r["count"]
         rec.update({"checked": today.isoformat(), "ok": r["ok"], "reason": r["reason"],
                     "count": r["count"], "status": r["status"], "noindex": r["noindex"],
-                    "group": group_of[url]})
+                    "modified": r["modified"], "group": group_of[url]})
         if changed or "changed" not in rec:
             rec["changed"] = today.isoformat()
         state[url] = rec
@@ -414,7 +422,9 @@ def main():
             continue
         out_path = os.path.join(OUT_DIR, group["output"])
         cands = group_cands[name]
-        listed = sorted((u, state[u].get("changed")) for u in cands if state.get(u, {}).get("ok"))
+        lastmod_key = "modified" if group.get("lastmod") == "dateModified" else "changed"
+        listed = sorted((u, state[u].get(lastmod_key) or state[u].get("changed"))
+                        for u in cands if state.get(u, {}).get("ok"))
         unchecked = sum(1 for u in cands if u not in state)
         previous = read_sitemap(out_path)
         new_urls = {u for u, _ in listed}
