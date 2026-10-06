@@ -128,10 +128,23 @@ def main():
     # Use verify_targets.py results when present: BD's sitemaps list some
     # state/city/service pages that 404. Those fall back to the state/city page;
     # a city row whose target fails is dropped (flat URL stays) and reported.
+    # Preferred source: the sitemap builder's verdicts (state/checks.json), which
+    # cover every /{state}/{city} and /{state}/{city}/{service} candidate after a
+    # full run. Any 200 is a valid destination (thin pages are noindexed by C2,
+    # but still the right home for their flat duplicate).
+    target_status = {}
+    builder_path = os.path.join(ROOT, "state", "checks.json")
+    if os.path.exists(builder_path):
+        for url, rec in json.load(open(builder_path)).items():
+            path = "/" + url.replace(SITE, "").strip("/")
+            target_status[path] = {"status": rec.get("status"),
+                                   "self_canonical": rec.get("reason") != "canonical-elsewhere"}
     status_path = os.path.join(HERE, "target-status.json")
-    target_status = json.load(open(status_path)) if os.path.exists(status_path) else {}
-    good = lambda d: d not in target_status or (target_status[d].get("status") == 200
-                                                 and target_status[d].get("self_canonical"))
+    if os.path.exists(status_path):
+        for path, rec in json.load(open(status_path)).items():
+            target_status.setdefault(path, rec)
+    good = lambda d: (d in target_status and target_status[d].get("status") == 200
+                      and target_status[d].get("self_canonical"))
     dead_targets = []
     checked = []
     for src, dst, kind in rows:
