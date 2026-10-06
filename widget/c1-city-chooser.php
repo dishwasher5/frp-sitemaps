@@ -220,18 +220,37 @@
                 if (isset($frp_cc_data[$frp_cc_city])) {
                     $frp_cc_name = ucwords(str_replace('-', ' ', $frp_cc_city));
                     $frp_cc_svc_name = $frp_cc_svc !== '' ? ucwords(str_replace('-', ' ', $frp_cc_svc)) : '';
-                    echo '<nav class="frp-city-chooser" aria-label="Choose a state" style="border:1px solid #d8dee4;border-radius:8px;padding:14px 16px;margin:0 0 18px;background:#f6f8fa;">';
-                    echo '<p style="margin:0 0 8px;font-weight:700;font-size:16px;">Which ' . htmlspecialchars($frp_cc_name) . '? '
-                        . '<span style="font-weight:400;">This page mixes contractors from every ' . htmlspecialchars($frp_cc_name)
-                        . '. Pick your state for local results' . ($frp_cc_svc_name !== '' ? ' for ' . htmlspecialchars($frp_cc_svc_name) : '') . ':</span></p>';
-                    echo '<ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;">';
+                    // Styled like the result cards (.search_result) and View Listing buttons.
+                    // A div with role=navigation, not <nav>: the site CSS forces
+                    // border:none and border-radius:0 !important on every <nav>.
+                    echo '<style>'
+                        . '.frp-city-chooser{background:#152236;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:18px 20px;margin:0 0 20px;}'
+                        . '.frp-city-chooser .frp-cc-title{margin:0;font-family:Montserrat,sans-serif;font-size:17px;font-weight:700;color:#F0F4F8;line-height:1.3;}'
+                        . '.frp-city-chooser .frp-cc-sub{margin:4px 0 14px;font-family:"DM Sans",sans-serif;font-size:14px;color:rgba(210,225,240,.62);line-height:1.5;}'
+                        . '.frp-city-chooser ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;}'
+                        . '.frp-city-chooser li{margin:0;padding:0;}'
+                        . '.frp-city-chooser a{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid rgba(58,127,193,.5);border-radius:8px;background:transparent;color:#F0F4F8;font-family:"DM Sans",sans-serif;font-size:14px;font-weight:600;line-height:1.3;text-decoration:none;transition:background-color .15s,border-color .15s;}'
+                        . '.frp-city-chooser a:hover,.frp-city-chooser a:focus-visible{background:#3A7FC1;border-color:#3A7FC1;color:#fff;text-decoration:none;}'
+                        . '.frp-city-chooser a:focus-visible{outline:2px solid #F0F4F8;outline-offset:2px;}'
+                        . '.frp-city-chooser .frp-cc-n{font-size:12px;font-weight:500;color:rgba(210,225,240,.62);}'
+                        . '.frp-city-chooser a:hover .frp-cc-n,.frp-city-chooser a:focus-visible .frp-cc-n{color:rgba(255,255,255,.85);}'
+                        . '@media (max-width:767px){.frp-city-chooser{padding:16px;border-radius:12px;}'
+                        . '.frp-city-chooser ul{display:grid;grid-template-columns:1fr 1fr;}'
+                        . '.frp-city-chooser a{flex-direction:column;align-items:flex-start;gap:2px;width:100%;padding:10px 12px;}}'
+                        . '</style>';
+                    echo '<div class="frp-city-chooser" role="navigation" aria-label="Choose a state">';
+                    echo '<p class="frp-cc-title">Which ' . htmlspecialchars($frp_cc_name) . '?</p>';
+                    echo '<p class="frp-cc-sub">This page mixes contractors from every ' . htmlspecialchars($frp_cc_name)
+                        . '. Pick your state for local results' . ($frp_cc_svc_name !== '' ? ' for ' . htmlspecialchars($frp_cc_svc_name) : '') . ':</p>';
+                    echo '<ul>';
                     foreach ($frp_cc_data[$frp_cc_city] as $frp_cc_st) {
                         $frp_cc_has_svc = $frp_cc_svc !== '' && in_array($frp_cc_svc, explode(' ', $frp_cc_st[3]), true);
                         $frp_cc_href = '/' . $frp_cc_st[0] . '/' . $frp_cc_city . ($frp_cc_has_svc ? '/' . $frp_cc_svc : '');
-                        echo '<li><a href="' . htmlspecialchars($frp_cc_href) . '" style="display:inline-block;padding:6px 12px;border:1px solid #c9d3dc;border-radius:6px;background:#fff;text-decoration:none;">'
+                        $frp_cc_n = (int) $frp_cc_st[2];
+                        echo '<li><a href="' . htmlspecialchars($frp_cc_href) . '">'
                             . htmlspecialchars($frp_cc_name) . ', ' . htmlspecialchars($frp_cc_st[1])
-                            . ' <span style="color:#57606a;">(' . (int) $frp_cc_st[2] . ')</span></a></li>';
+                            . '<span class="frp-cc-n">' . $frp_cc_n . ($frp_cc_n === 1 ? ' pro' : ' pros') . '</span></a></li>';
                     }
-                    echo '</ul></nav>';
+                    echo '</ul></div>';
                 }
             }
