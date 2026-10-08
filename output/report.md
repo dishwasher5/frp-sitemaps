@@ -1,6 +1,6 @@
-# Sitemap build 2026-10-07
+# Sitemap build 2026-10-08
 
-Checked 3558 pages this run (0 transient, kept previous verdict).
+Checked 3557 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -26,15 +26,9 @@ Checked 3558 pages this run (0 transient, kept previous verdict).
 ## posts
 
 - Candidates: 45 (not yet checked: 0)
-- Listed: 44 (previous: 45)
-- Added: 0, removed: 1
+- Listed: 44 (previous: 44)
+- Added: 0, removed: 0
 - Verdicts: pass 44, http-301 1
-
-<details><summary>Removed (1)</summary>
-
-- https://www.findroofingpros.com/blog/what-is-california-s-chapter-7a-wildfire-roofing-code-complete-homeowner-s-guide (http-301)
-
-</details>
 
 ## state-service
 
