@@ -36,6 +36,8 @@ Rules, thresholds and exclusions live in [`config.toml`](config.toml).
 | `output/report.md` | What was added/removed and why (also shown on each Actions run) |
 | `output/thin-but-indexable.txt` | Thin pages Google can still index: the noindex to-do list |
 | `state/checks.json` | Last verdict per URL |
+| `indexnow.py` | Runs after each build: submits new, changed (lastmod) and dropped sitemap URLs to IndexNow. Sends nothing until the key file is live; failures never fail the build |
+| `state/indexnow.json` | What was last submitted to IndexNow (URL → lastmod) |
 
 ## Setup
 

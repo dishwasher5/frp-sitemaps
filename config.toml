@@ -30,6 +30,15 @@ require_self_canonical = true
 # Override once with the "accept_drop" option when running the workflow by hand.
 max_drop = 0.20
 
+[indexnow]
+# After each build, indexnow.py submits sitemap URLs that are new, have a new
+# lastmod, or were dropped (Bing, Yandex, Seznam, Naver share submissions).
+# The key file must be live at key_location, containing just the key.
+enabled = true
+key = "94e895a74672c9d2131ec7852b7b4081"
+key_location = "https://www.findroofingpros.com/94e895a74672c9d2131ec7852b7b4081"
+endpoint = "https://api.indexnow.org/indexnow"
+
 # One block per sitemap. Candidate URLs come from BD's own (unfiltered)
 # master sitemaps; "derive_drop_first" sources have their first path segment
 # removed (e.g. /south-carolina/aiken/roof-repair → /aiken/roof-repair).

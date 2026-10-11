@@ -38,6 +38,9 @@ jobs:
           ${{ inputs.full && '--full' || '' }}
           ${{ inputs.accept_drop && '--accept-drop' || '' }}
 
+      - name: Submit changed URLs to IndexNow
+        run: python indexnow.py
+
       - name: Commit results
         run: |
           git config user.name "frp-sitemap-bot"
