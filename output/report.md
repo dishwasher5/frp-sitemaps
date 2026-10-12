@@ -1,6 +1,6 @@
 # Sitemap build 2026-10-12
 
-Checked 3558 pages this run (0 transient, kept previous verdict).
+Checked 0 pages this run (0 transient, kept previous verdict).
 
 ## city
 
