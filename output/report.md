@@ -1,6 +1,6 @@
 # Sitemap build 2026-10-14
 
-Checked 8975 pages this run (0 transient, kept previous verdict).
+Checked 10 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -39,14 +39,23 @@ Checked 8975 pages this run (0 transient, kept previous verdict).
 
 ## static
 
-- Candidates: 13 (not yet checked: 0)
-- Listed: 13 (previous: 12)
-- Added: 1, removed: 0
-- Verdicts: pass 13
+- Candidates: 23 (not yet checked: 0)
+- Listed: 23 (previous: 13)
+- Added: 10, removed: 0
+- Verdicts: pass 23
 
-<details><summary>Added (1)</summary>
+<details><summary>Added (10)</summary>
 
-- https://www.findroofingpros.com/join
+- https://www.findroofingpros.com/insurance-roof-replacement
+- https://www.findroofingpros.com/tools/metal-roof-vs-shingles-cost
+- https://www.findroofingpros.com/tools/rain-on-metal-roof
+- https://www.findroofingpros.com/tools/repair-or-replace
+- https://www.findroofingpros.com/tools/roof-color-visualizer
+- https://www.findroofingpros.com/tools/roof-life-countdown
+- https://www.findroofingpros.com/tools/roof-pitch-calculator
+- https://www.findroofingpros.com/tools/roof-quote-roast
+- https://www.findroofingpros.com/tools/roofer-license-map
+- https://www.findroofingpros.com/tools/storm-chaser-scam-check
 
 </details>
 
