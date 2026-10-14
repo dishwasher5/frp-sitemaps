@@ -219,6 +219,15 @@ def candidate_sets(cfg, group):
                 urls.add(site + path)
                 if mode in (None, "allow"):
                     native.add(site + path)
+    # Pages BD's own sitemaps don't list (custom content pages, /tools/*): one
+    # path per line in group["extra_list"]. They still have to pass every rule.
+    if group.get("extra_list"):
+        with open(os.path.join(ROOT, group["extra_list"]), encoding="utf-8") as f:
+            for line in f:
+                path = line.split("#", 1)[0].strip().strip("/")
+                if path:
+                    urls.add(site + path)
+                    native.add(site + path)
     excluded = {site + p.strip("/") for p in group.get("exclude", [])}
     return urls - excluded, native - excluded
 

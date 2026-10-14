@@ -1,0 +1,12 @@
+# Live pages BD's static_pages sitemap doesn't list. One path per line; each
+# still has to pass the static group's rules (200, indexable, self-canonical).
+insurance-roof-replacement
+tools/roof-pitch-calculator
+tools/repair-or-replace
+tools/roof-quote-roast
+tools/roofer-license-map
+tools/roof-life-countdown
+tools/roof-color-visualizer
+tools/storm-chaser-scam-check
+tools/rain-on-metal-roof
+tools/metal-roof-vs-shingles-cost

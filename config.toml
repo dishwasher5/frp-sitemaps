@@ -113,6 +113,7 @@ min_contractors = 0          # mostly not results pages: only status/index/canon
 priority = -1                # URLs another sitemap also lists (city, state-service) stay there
 sources = ["filedata/cache/xml-sitemaps/static_pages-static_pages-1.xml"]
 derive_drop_first = []
+extra_list = "extra-static-pages.txt"   # pages BD's static sitemap misses (tools, insurance hub)
 # M6: BD's static-pages sitemap also lists these. /search is robots-disallowed,
 # /join-success is a thank-you page, the rest are sitemap files.
 exclude = ["search", "sitesearch", "join-success", "sitemap.xml",
