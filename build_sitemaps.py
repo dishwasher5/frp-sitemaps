@@ -293,11 +293,16 @@ def save_state(state):
     os.replace(tmp, STATE_PATH)
 
 
-def is_due(rec, today, cfg, full):
+def is_due(rec, today, cfg, full, group=None):
     if full or rec is None or "checked" not in rec:
         return True
     age = (today - date.fromisoformat(rec["checked"])).days
-    limit = cfg["recheck_passing_days"] if rec.get("ok") else cfg["recheck_failing_days"]
+    group = group or {}
+    # A group can set its own pace (the ~17k profiles can't all be re-checked daily).
+    if rec.get("ok"):
+        limit = group.get("recheck_passing_days", cfg["recheck_passing_days"])
+    else:
+        limit = group.get("recheck_failing_days", cfg["recheck_failing_days"])
     return age >= limit
 
 
@@ -381,7 +386,7 @@ def main():
     for group in cfg["group"]:
         for url in group_cands.get(group["name"], []):
             rec = state.get(url)
-            if is_due(rec, today, cfg, args.full):
+            if is_due(rec, today, cfg, args.full, group):
                 priority = 0 if rec is None else (1 if rec.get("ok") else 2)
                 jobs.append((priority, rec.get("checked", "") if rec else "", url, group))
     jobs.sort(key=lambda j: (j[0], j[1]))

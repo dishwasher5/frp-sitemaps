@@ -120,3 +120,21 @@ exclude = ["search", "sitesearch", "join-success", "sitemap.xml",
            "sitemap-city-filtered.xml", "sitemap-city-service-filtered.xml",
            "sitemap-state-service-filtered.xml", "sitemap-state-filtered.xml",
            "sitemap-posts-filtered.xml", "sitemap-static-filtered.xml"]
+
+[[group]]
+name = "profiles"
+output = "sitemap-profiles.xml"
+min_urls = 5000              # ~16,800 active members; the first run checks about 9,000 of them
+min_contractors = 0          # profiles aren't results pages: only status/index/canonical apply
+priority = -2                # a URL another sitemap also produces stays there
+recheck_passing_days = 14    # ~17k URLs: re-check each profile every two weeks, not daily
+recheck_failing_days = 14
+# H2: BD's own profile sitemap is a stale cache (lists 892 /united-states/ URLs and renamed
+# slugs that now 301). It stays a source, so new members appear once BD regenerates it, but
+# redirecting URLs fail the checks; profiles.txt (current filenames from the BD API,
+# h10/profiles_snapshot.py) adds the members whose current URL BD's file doesn't list.
+sources = ["filedata/cache/xml-sitemaps/profile-filename-1.xml"]
+derive_drop_first = []
+segments = 3
+extra_list = "profiles.txt"
+exclude = []
