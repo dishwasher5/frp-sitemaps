@@ -4320,8 +4320,8 @@ georgia/norcross/b-g-painting-roofing-llc
 georgia/norcross/ecg-contractors
 georgia/norcross/fga-roofing
 georgia/norcross/gcr-construction-roofing
-georgia/norcross/georgia-s-best-roofer
-georgia/norcross/georgia-s-best-roofer-2826
+georgia/norcross/georgias-best-roofer
+georgia/norcross/georgias-best-roofer-2826
 georgia/norcross/gmc-blue-service
 georgia/norcross/hive-roofing
 georgia/norcross/ideal-building-solutions
@@ -5685,7 +5685,9 @@ iowa/indianola/whitey-exteriors
 iowa/iowa-city/andino-construction-llc
 iowa/iowa-city/century-roofing-co
 iowa/iowa-city/dej-construction-llc
+iowa/iowa-city/dej-construction-llc-2686
 iowa/iowa-city/dej-construction-llc-2780
+iowa/iowa-city/dej-construction-llc-2837
 iowa/iowa-city/dj-paz-all-siding-roofing-construction
 iowa/iowa-city/tomlinson-cannon
 iowa/iowa-city/tomlinson-cannon-roofing
@@ -6263,8 +6265,8 @@ louisiana/minden/speer-roofing-construction-and-seamless-gutters-2810
 louisiana/minden/weaver-roofing
 louisiana/minden/weaver-roofing-2811
 louisiana/monroe/318-construction-llc
-louisiana/monroe/brown-s-roofing
-louisiana/monroe/brown-s-roofing-2817
+louisiana/monroe/browns-roofing
+louisiana/monroe/browns-roofing-2817
 louisiana/monroe/christian-construction-of-louisiana
 louisiana/monroe/iconcrete-construction-roofing-monroe-la
 louisiana/monroe/jt-roofing
@@ -8554,6 +8556,7 @@ montana/victor/freedom-solutions
 montana/victor/schrock-commercial-roofing-inc-schrock-roofing
 montana/victor/schrock-roofing-inc
 montana/wilsall/ace-roofing-llc
+nation-rent-a-fence
 nebraska/albion/patriot-roofing-llc
 nebraska/aurora/blue-water-restoration
 nebraska/beatrice/home-exteriors-solutions
@@ -12135,7 +12138,7 @@ pennsylvania/new-holland/mountaintop-construction-llc
 pennsylvania/new-holland/red-well-construction-new-holland
 pennsylvania/new-holland/redwell-roofing-construction-llc
 pennsylvania/new-holland/redwell-roofing-construction-llc-4416
-pennsylvania/new-holland/zimmerman-s-roofing
+pennsylvania/new-holland/zimmermans-roofing
 pennsylvania/new-hope/215build
 pennsylvania/new-oxford/franco-contractors-inc
 pennsylvania/newport/encore-roofing-llc
@@ -12373,7 +12376,7 @@ pennsylvania/willow-grove/buck-construction
 pennsylvania/willow-grove/c-c-family-roofing
 pennsylvania/willow-grove/frye-roofing-construction
 pennsylvania/willow-grove/preferred-home-improvement
-pennsylvania/wind-gap/angel-s-roofing-siding-inc
+pennsylvania/wind-gap/angels-roofing-siding-inc
 pennsylvania/wind-gap/jacob-e-allen-roofing
 pennsylvania/wind-gap/jck-roofing
 pennsylvania/wind-gap/jck-roofing-9249
@@ -12946,8 +12949,8 @@ tennessee/lebanon/cootes-farms-roofing-llc
 tennessee/lebanon/henry-brothers-roofing-construction
 tennessee/lebanon/henry-brothers-roofing-construction-2790
 tennessee/lebanon/henry-brothers-roofing-construction-2898
-tennessee/lebanon/mama-s-metal-roofing
 tennessee/lebanon/mamas-metal-roofing
+tennessee/lebanon/mamas-metal-roofing-2900
 tennessee/lebanon/mobley-brothers-roofing-and-renovation
 tennessee/lebanon/mobley-brothers-roofing-and-renovation-2791
 tennessee/lebanon/mobley-brothers-roofing-and-renovation-2899
@@ -14654,7 +14657,7 @@ texas/little-elm/dd-custom-contractors
 texas/little-elm/goodwill-s-gutters
 texas/little-elm/jrh-roofing-and-construction
 texas/little-elm/szott-s-roofing
-texas/little-elm/szott-s-roofing-construction
+texas/little-elm/szotts-roofing-construction
 texas/livingston/arocha-enterprise-inc
 texas/livingston/best-roofing-texas-livingston
 texas/livingston/roman-roof-cleaning-pressure-washing
