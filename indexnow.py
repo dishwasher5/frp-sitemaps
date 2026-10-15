@@ -59,7 +59,11 @@ def key_is_live(cfg, user_agent):
     req = urllib.request.Request(cfg["key_location"], headers={"User-Agent": user_agent})
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
-            return resp.status == 200 and resp.read().decode("utf-8", "replace").strip() == cfg["key"]
+            body = resp.read().decode("utf-8", "replace")
+            # BD prepends an empty <style> block to custom pages (H1); IndexNow accepts the key anyway
+            # (Bing answered 200 to a test submission on 2026-10-15), so ignore that prefix here.
+            body = re.sub(r"^\s*<style[^>]*>.*?</style>", "", body, flags=re.S | re.I)
+            return resp.status == 200 and body.strip() == cfg["key"]
     except Exception:
         return False
 
