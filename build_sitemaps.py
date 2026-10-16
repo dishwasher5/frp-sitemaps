@@ -19,6 +19,7 @@ Usage:
 """
 
 import argparse
+import hashlib
 import json
 import os
 import random
@@ -104,9 +105,21 @@ def _norm(url):
     return f"{p.scheme.lower()}://{p.netloc.lower()}{p.path.rstrip('/') or '/'}"
 
 
+def fingerprint(body):
+    """Hash of the page's main content (from the first <h1> to the last <footer>, visible text only), so a
+    lastmod moves when listings or copy change but not for tokens, scripts or site-wide header/footer edits."""
+    low = body.lower()
+    i, j = low.find("<h1"), low.rfind("<footer")
+    main = body[i if i > 0 else 0: j if j > i else len(body)]
+    main = re.sub(r"(?is)<(script|style|noscript|svg)\b.*?</\1>", " ", main)
+    main = re.sub(r"(?s)<!--.*?-->|<[^>]+>|&[a-z#0-9]+;", " ", main)
+    return hashlib.sha1(re.sub(r"\s+", " ", main).strip().encode()).hexdigest()[:16]
+
+
 def inspect(url, status, headers, body):
     """Extract the signals the rules need from one fetched page."""
-    info = {"status": status, "noindex": False, "canonical": None, "count": None, "modified": None}
+    info = {"status": status, "noindex": False, "canonical": None, "count": None, "modified": None,
+            "fp": fingerprint(body) if status == 200 and body else None}
     m = MODIFIED_RE.search(body)
     if m:
         info["modified"] = m.group(1)
@@ -168,7 +181,7 @@ def check_url(url, cfg, group, limiter, deadline):
         ok, reason = verdict(url, info, cfg["rules"], min_c)
     return url, {"ok": ok, "reason": reason, "count": info["count"],
                  "status": info["status"], "noindex": info["noindex"],
-                 "modified": info["modified"]}
+                 "modified": info["modified"], "fp": info["fp"]}
 
 
 # ── Candidates ──────────────────────────────────────────────────────────
@@ -414,6 +427,10 @@ def main():
             continue
         rec = state.get(url, {"first_seen": today.isoformat()})
         changed = rec.get("ok") != r["ok"] or rec.get("count") != r["count"]
+        if r.get("fp"):
+            if rec.get("fp") and rec["fp"] != r["fp"]:
+                changed = True          # L4: the main content really changed
+            rec["fp"] = r["fp"]         # first fingerprint is stored without moving the date
         rec.update({"checked": today.isoformat(), "ok": r["ok"], "reason": r["reason"],
                     "count": r["count"], "status": r["status"], "noindex": r["noindex"],
                     "modified": r["modified"], "group": group_of[url]})
