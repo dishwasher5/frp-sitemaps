@@ -1,6 +1,6 @@
-# Sitemap build 2026-10-16
+# Sitemap build 2026-10-17
 
-Checked 3391 pages this run (0 transient, kept previous verdict).
+Checked 3361 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -26,15 +26,9 @@ Checked 3391 pages this run (0 transient, kept previous verdict).
 ## posts
 
 - Candidates: 44 (not yet checked: 0)
-- Listed: 44 (previous: 43)
-- Added: 1, removed: 0
+- Listed: 44 (previous: 44)
+- Added: 0, removed: 0
 - Verdicts: pass 44
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/blog/metal-roof-cost-in-2026-price-per-square-foot-by-type-and-by-house-size
-
-</details>
 
 ## state-service
 
@@ -46,52 +40,16 @@ Checked 3391 pages this run (0 transient, kept previous verdict).
 ## static
 
 - Candidates: 26 (not yet checked: 0)
-- Listed: 25 (previous: 23)
-- Added: 2, removed: 0
+- Listed: 25 (previous: 25)
+- Added: 0, removed: 0
 - Verdicts: pass 25, no-canonical 1
-
-<details><summary>Added (2)</summary>
-
-- https://www.findroofingpros.com/tools/ice-dam-forecast
-- https://www.findroofingpros.com/tools/roof-temperature
-
-</details>
 
 ## profiles
 
 - Candidates: 16754 (not yet checked: 0)
-- Listed: 16734 (previous: 16731)
-- Added: 11, removed: 8
+- Listed: 16734 (previous: 16734)
+- Added: 0, removed: 0
 - Verdicts: pass 16734, canonical-elsewhere 18, http-301 2
-
-<details><summary>Added (11)</summary>
-
-- https://www.findroofingpros.com/georgia/norcross/georgias-best-roofer
-- https://www.findroofingpros.com/georgia/norcross/georgias-best-roofer-2826
-- https://www.findroofingpros.com/iowa/iowa-city/dej-construction-llc-2686
-- https://www.findroofingpros.com/iowa/iowa-city/dej-construction-llc-2837
-- https://www.findroofingpros.com/louisiana/monroe/browns-roofing
-- https://www.findroofingpros.com/louisiana/monroe/browns-roofing-2817
-- https://www.findroofingpros.com/nation-rent-a-fence
-- https://www.findroofingpros.com/pennsylvania/new-holland/zimmermans-roofing
-- https://www.findroofingpros.com/pennsylvania/wind-gap/angels-roofing-siding-inc
-- https://www.findroofingpros.com/tennessee/lebanon/mamas-metal-roofing-2900
-- https://www.findroofingpros.com/texas/little-elm/szotts-roofing-construction
-
-</details>
-
-<details><summary>Removed (8)</summary>
-
-- https://www.findroofingpros.com/georgia/norcross/georgia-s-best-roofer
-- https://www.findroofingpros.com/georgia/norcross/georgia-s-best-roofer-2826
-- https://www.findroofingpros.com/louisiana/monroe/brown-s-roofing
-- https://www.findroofingpros.com/louisiana/monroe/brown-s-roofing-2817
-- https://www.findroofingpros.com/pennsylvania/new-holland/zimmerman-s-roofing
-- https://www.findroofingpros.com/pennsylvania/wind-gap/angel-s-roofing-siding-inc
-- https://www.findroofingpros.com/tennessee/lebanon/mama-s-metal-roofing
-- https://www.findroofingpros.com/texas/little-elm/szott-s-roofing-construction
-
-</details>
 
 ## Thin pages Google can still index
 
