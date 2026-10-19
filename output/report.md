@@ -1,6 +1,6 @@
 # Sitemap build 2026-10-19
 
-Checked 3361 pages this run (0 transient, kept previous verdict).
+Checked 2 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -25,10 +25,17 @@ Checked 3361 pages this run (0 transient, kept previous verdict).
 
 ## posts
 
-- Candidates: 44 (not yet checked: 0)
-- Listed: 44 (previous: 44)
-- Added: 0, removed: 0
-- Verdicts: pass 44
+- Candidates: 46 (not yet checked: 0)
+- Listed: 46 (previous: 44)
+- Added: 2, removed: 0
+- Verdicts: pass 46
+
+<details><summary>Added (2)</summary>
+
+- https://www.findroofingpros.com/blog/licensed-roofing-contractor-how-to-verify-a-license-in-any-state-and-what-certified-really-means
+- https://www.findroofingpros.com/blog/types-of-commercial-roofing-8-systems-compared-by-cost-lifespan-and-best-use-2026
+
+</details>
 
 ## state-service
 
