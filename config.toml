@@ -93,6 +93,8 @@ min_urls = 30                # 45 posts on 2026-10-05
 min_contractors = 0          # not results pages: only status/index/canonical apply
 lastmod = "dateModified"     # BD's own post sitemap stamps every post with one date (L9)
 sources = ["filedata/cache/xml-sitemaps/data_post-data_filename-post_filename-1.xml"]
+link_sources = ["blog"]      # BD's post file lags new releases (posts 100/101 missing for days); /blog lists the newest 9
+link_pattern = "blog/[a-z0-9-]+"
 derive_drop_first = []
 exclude = []
 

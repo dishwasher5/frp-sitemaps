@@ -42,6 +42,7 @@ OUT_DIR = os.path.join(ROOT, "output")
 ALERT_PATH = os.path.join(OUT_DIR, "ALERT.md")
 
 LOC_RE = re.compile(r"<loc>\s*(.*?)\s*</loc>", re.S)
+HREF_RE = re.compile(r"""href=["']([^"'#]+)""", re.I)
 META_RE = re.compile(r"<meta\b[^>]*>", re.I)
 LINK_RE = re.compile(r"<link\b[^>]*>", re.I)
 ATTR_RE = re.compile(r"""([a-zA-Z_:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')""")
@@ -239,6 +240,26 @@ def candidate_sets(cfg, group):
             for line in f:
                 path = line.split("#", 1)[0].strip().strip("/")
                 if path:
+                    urls.add(site + path)
+                    native.add(site + path)
+    # Public pages whose links name candidates before BD's cached sitemap file
+    # catches up (a post released today shows on /blog first; H3 2026-10-19).
+    # Only same-site links matching group["link_pattern"]; an unreadable page
+    # just warns, because the sitemap sources above stay the authority.
+    if group.get("link_sources"):
+        pattern = re.compile(group["link_pattern"])
+        host = urlsplit(site).netloc
+        for src in group["link_sources"]:
+            status, _, body = fetch(site + src, cfg)
+            if status != 200:
+                print(f"  ! link source unreadable: {src} (status {status})")
+                continue
+            for href in HREF_RE.findall(body):
+                p = urlsplit(href)
+                if p.netloc and p.netloc.lower() != host:
+                    continue
+                path = p.path.strip("/")
+                if pattern.fullmatch(path):
                     urls.add(site + path)
                     native.add(site + path)
     excluded = {site + p.strip("/") for p in group.get("exclude", [])}
