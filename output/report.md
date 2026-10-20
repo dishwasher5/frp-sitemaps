@@ -1,6 +1,6 @@
 # Sitemap build 2026-10-20
 
-Checked 8772 pages this run (0 transient, kept previous verdict).
+Checked 1 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -25,10 +25,16 @@ Checked 8772 pages this run (0 transient, kept previous verdict).
 
 ## posts
 
-- Candidates: 46 (not yet checked: 0)
-- Listed: 46 (previous: 46)
-- Added: 0, removed: 0
-- Verdicts: pass 46
+- Candidates: 47 (not yet checked: 0)
+- Listed: 47 (previous: 46)
+- Added: 1, removed: 0
+- Verdicts: pass 47
+
+<details><summary>Added (1)</summary>
+
+- https://www.findroofingpros.com/blog/how-to-find-a-licensed-roofing-contractor-in-michigan
+
+</details>
 
 ## state-service
 
