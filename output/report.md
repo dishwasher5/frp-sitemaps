@@ -1,6 +1,6 @@
 # Sitemap build 2026-10-22
 
-Checked 3026 pages this run (0 transient, kept previous verdict).
+Checked 0 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -30,7 +30,7 @@ Checked 3026 pages this run (0 transient, kept previous verdict).
 - Added: 0, removed: 0
 - Verdicts: pass 47
 
-## state-service — NOT PUBLISHED
+## state-service
 
 - Candidates: 1163 (not yet checked: 0)
 - Listed: 689 (previous: 883)
