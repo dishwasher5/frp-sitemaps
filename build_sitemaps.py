@@ -48,6 +48,9 @@ LINK_RE = re.compile(r"<link\b[^>]*>", re.I)
 ATTR_RE = re.compile(r"""([a-zA-Z_:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')""")
 # JSON-LD dateModified (blog posts), W3C datetime as the sitemap lastmod expects
 MODIFIED_RE = re.compile(r'"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2}(?:T[0-9:.]+(?:Z|[+-]\d{2}:\d{2}))?)"')
+# JSON-LD datePublished: BD serves scheduled posts (200, index) before their date, so a post
+# published in the future stays out until then (H8, 2026-10-23: the Virginia guide due Nov 3)
+PUBLISHED_RE = re.compile(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2}(?:T[0-9:.]+(?:Z|[+-]\d{2}:\d{2}))?)"')
 
 TRANSIENT = "transient"
 
@@ -120,10 +123,13 @@ def fingerprint(body):
 def inspect(url, status, headers, body):
     """Extract the signals the rules need from one fetched page."""
     info = {"status": status, "noindex": False, "canonical": None, "count": None, "modified": None,
-            "fp": fingerprint(body) if status == 200 and body else None}
+            "published": None, "fp": fingerprint(body) if status == 200 and body else None}
     m = MODIFIED_RE.search(body)
     if m:
         info["modified"] = m.group(1)
+    m = PUBLISHED_RE.search(body)
+    if m:
+        info["published"] = m.group(1)
     if "noindex" in headers.get("x-robots-tag", "").lower():
         info["noindex"] = True
     for tag in META_RE.findall(body):
@@ -145,6 +151,19 @@ def inspect(url, status, headers, body):
     return info
 
 
+def is_future(stamp):
+    """True when a JSON-LD date (date or datetime, offset optional) is later than now."""
+    if not stamp:
+        return False
+    try:
+        dt = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt > datetime.now(timezone.utc)
+
+
 def verdict(url, info, rules, min_contractors):
     """Return (passes, reason). reason is '' when the page passes."""
     s = info["status"]
@@ -152,6 +171,8 @@ def verdict(url, info, rules, min_contractors):
         return None, TRANSIENT
     if s != 200:
         return False, f"http-{s}"
+    if is_future(info.get("published")):
+        return False, "scheduled"
     if rules["require_index"] and info["noindex"]:
         return False, "noindex"
     if rules["require_self_canonical"]:
@@ -329,6 +350,8 @@ def save_state(state):
 
 def is_due(rec, today, cfg, full, group=None):
     if full or rec is None or "checked" not in rec:
+        return True
+    if rec.get("reason") == "scheduled":  # re-check daily so it goes in on its release day
         return True
     age = (today - date.fromisoformat(rec["checked"])).days
     group = group or {}

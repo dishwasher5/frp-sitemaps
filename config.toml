@@ -108,6 +108,18 @@ derive_drop_first = []
 exclude = []
 
 [[group]]
+name = "hubs"
+output = "sitemap-hubs.xml"
+min_urls = 15                # 27 national service hubs + /roofing-contractor on 2026-10-23
+priority = 1
+# M19 (2026-10-23): the national service hubs (/roof-repair, /emergency-roofing, ...) were only
+# in these two unfiltered BD files, listed straight in the index. Now they get the same checks.
+sources = ["filedata/cache/xml-sitemaps/profile_search_results-service_name-1.xml",
+           "filedata/cache/xml-sitemaps/profile_search_results-profession_name-1.xml"]
+derive_drop_first = []
+exclude = []
+
+[[group]]
 name = "static"
 output = "sitemap-static.xml"
 min_urls = 10                # 13 URLs of its own on 2026-10-06 (the rest belong to other sitemaps)
