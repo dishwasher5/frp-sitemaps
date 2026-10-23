@@ -1,6 +1,6 @@
-# Sitemap build 2026-10-22
+# Sitemap build 2026-10-23
 
-Checked 0 pages this run (0 transient, kept previous verdict).
+Checked 3048 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -25,216 +25,24 @@ Checked 0 pages this run (0 transient, kept previous verdict).
 
 ## posts
 
-- Candidates: 47 (not yet checked: 0)
-- Listed: 47 (previous: 47)
-- Added: 0, removed: 0
-- Verdicts: pass 47
+- Candidates: 49 (not yet checked: 0)
+- Listed: 49 (previous: 47)
+- Added: 2, removed: 0
+- Verdicts: pass 49
+
+<details><summary>Added (2)</summary>
+
+- https://www.findroofingpros.com/blog/how-to-find-a-licensed-roofing-contractor-in-virginia
+- https://www.findroofingpros.com/blog/how-to-get-roofing-leads-10-ways-for-roofing-contractors-2026
+
+</details>
 
 ## state-service
 
 - Candidates: 1163 (not yet checked: 0)
-- Listed: 689 (previous: 883)
-- Added: 0, removed: 194
+- Listed: 689 (previous: 689)
+- Added: 0, removed: 0
 - Verdicts: pass 689, noindex 474
-
-<details><summary>Removed (194)</summary>
-
-- https://www.findroofingpros.com/alabama/roofing-by-material (noindex)
-- https://www.findroofingpros.com/alabama/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/alabama/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/alaska/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/alaska/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/arizona/roofing-by-material (noindex)
-- https://www.findroofingpros.com/arizona/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/arizona/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/arizona/specialty-services (noindex)
-- https://www.findroofingpros.com/arkansas/roofing-by-material (noindex)
-- https://www.findroofingpros.com/arkansas/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/arkansas/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/arkansas/specialty-services (noindex)
-- https://www.findroofingpros.com/california/roofing-by-material (noindex)
-- https://www.findroofingpros.com/california/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/california/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/california/specialty-services (noindex)
-- https://www.findroofingpros.com/colorado/roofing-by-material (noindex)
-- https://www.findroofingpros.com/colorado/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/colorado/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/colorado/specialty-services (noindex)
-- https://www.findroofingpros.com/connecticut/roofing-by-material (noindex)
-- https://www.findroofingpros.com/connecticut/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/connecticut/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/connecticut/specialty-services (noindex)
-- https://www.findroofingpros.com/delaware/roofing-by-material (noindex)
-- https://www.findroofingpros.com/delaware/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/delaware/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/delaware/specialty-services (noindex)
-- https://www.findroofingpros.com/district-of-columbia/roofing-by-material (noindex)
-- https://www.findroofingpros.com/district-of-columbia/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/district-of-columbia/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/district-of-columbia/specialty-services (noindex)
-- https://www.findroofingpros.com/florida/roofing-by-material (noindex)
-- https://www.findroofingpros.com/florida/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/florida/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/florida/specialty-services (noindex)
-- https://www.findroofingpros.com/georgia/roofing-by-material (noindex)
-- https://www.findroofingpros.com/georgia/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/georgia/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/georgia/specialty-services (noindex)
-- https://www.findroofingpros.com/hawaii/roofing-by-material (noindex)
-- https://www.findroofingpros.com/hawaii/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/hawaii/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/idaho/roofing-by-material (noindex)
-- https://www.findroofingpros.com/idaho/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/idaho/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/idaho/specialty-services (noindex)
-- https://www.findroofingpros.com/illinois/roofing-by-material (noindex)
-- https://www.findroofingpros.com/illinois/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/illinois/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/illinois/specialty-services (noindex)
-- https://www.findroofingpros.com/indiana/roofing-by-material (noindex)
-- https://www.findroofingpros.com/indiana/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/indiana/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/indiana/specialty-services (noindex)
-- https://www.findroofingpros.com/iowa/roofing-by-material (noindex)
-- https://www.findroofingpros.com/iowa/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/iowa/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/iowa/specialty-services (noindex)
-- https://www.findroofingpros.com/kansas/roofing-by-material (noindex)
-- https://www.findroofingpros.com/kansas/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/kansas/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/kansas/specialty-services (noindex)
-- https://www.findroofingpros.com/kentucky/roofing-by-material (noindex)
-- https://www.findroofingpros.com/kentucky/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/kentucky/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/kentucky/specialty-services (noindex)
-- https://www.findroofingpros.com/louisiana/roofing-by-material (noindex)
-- https://www.findroofingpros.com/louisiana/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/louisiana/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/louisiana/specialty-services (noindex)
-- https://www.findroofingpros.com/maine/roofing-by-material (noindex)
-- https://www.findroofingpros.com/maine/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/maine/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/maine/specialty-services (noindex)
-- https://www.findroofingpros.com/maryland/roofing-by-material (noindex)
-- https://www.findroofingpros.com/maryland/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/maryland/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/maryland/specialty-services (noindex)
-- https://www.findroofingpros.com/massachusetts/roofing-by-material (noindex)
-- https://www.findroofingpros.com/massachusetts/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/massachusetts/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/massachusetts/specialty-services (noindex)
-- https://www.findroofingpros.com/michigan/roofing-by-material (noindex)
-- https://www.findroofingpros.com/michigan/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/michigan/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/michigan/specialty-services (noindex)
-- https://www.findroofingpros.com/minnesota/roofing-by-material (noindex)
-- https://www.findroofingpros.com/minnesota/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/minnesota/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/minnesota/specialty-services (noindex)
-- https://www.findroofingpros.com/mississippi/roofing-by-material (noindex)
-- https://www.findroofingpros.com/mississippi/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/mississippi/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/missouri/roofing-by-material (noindex)
-- https://www.findroofingpros.com/missouri/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/missouri/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/missouri/specialty-services (noindex)
-- https://www.findroofingpros.com/montana/roofing-by-material (noindex)
-- https://www.findroofingpros.com/montana/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/montana/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/montana/specialty-services (noindex)
-- https://www.findroofingpros.com/nebraska/roofing-by-material (noindex)
-- https://www.findroofingpros.com/nebraska/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/nebraska/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/nebraska/specialty-services (noindex)
-- https://www.findroofingpros.com/nevada/roofing-by-material (noindex)
-- https://www.findroofingpros.com/nevada/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/nevada/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/new-hampshire/roofing-by-material (noindex)
-- https://www.findroofingpros.com/new-hampshire/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/new-hampshire/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/new-hampshire/specialty-services (noindex)
-- https://www.findroofingpros.com/new-jersey/roofing-by-material (noindex)
-- https://www.findroofingpros.com/new-jersey/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/new-jersey/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/new-jersey/specialty-services (noindex)
-- https://www.findroofingpros.com/new-mexico/roofing-by-material (noindex)
-- https://www.findroofingpros.com/new-mexico/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/new-mexico/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/new-york/roofing-by-material (noindex)
-- https://www.findroofingpros.com/new-york/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/new-york/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/new-york/specialty-services (noindex)
-- https://www.findroofingpros.com/north-carolina/roofing-by-material (noindex)
-- https://www.findroofingpros.com/north-carolina/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/north-carolina/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/north-carolina/specialty-services (noindex)
-- https://www.findroofingpros.com/north-dakota/roofing-by-material (noindex)
-- https://www.findroofingpros.com/north-dakota/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/north-dakota/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/ohio/roofing-by-material (noindex)
-- https://www.findroofingpros.com/ohio/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/ohio/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/ohio/specialty-services (noindex)
-- https://www.findroofingpros.com/oklahoma/roofing-by-material (noindex)
-- https://www.findroofingpros.com/oklahoma/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/oklahoma/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/oklahoma/specialty-services (noindex)
-- https://www.findroofingpros.com/oregon/roofing-by-material (noindex)
-- https://www.findroofingpros.com/oregon/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/oregon/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/oregon/specialty-services (noindex)
-- https://www.findroofingpros.com/pennsylvania/roofing-by-material (noindex)
-- https://www.findroofingpros.com/pennsylvania/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/pennsylvania/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/pennsylvania/specialty-services (noindex)
-- https://www.findroofingpros.com/rhode-island/roofing-by-material (noindex)
-- https://www.findroofingpros.com/rhode-island/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/rhode-island/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/rhode-island/specialty-services (noindex)
-- https://www.findroofingpros.com/south-carolina/roofing-by-material (noindex)
-- https://www.findroofingpros.com/south-carolina/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/south-carolina/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/south-carolina/specialty-services (noindex)
-- https://www.findroofingpros.com/south-dakota/roofing-by-material (noindex)
-- https://www.findroofingpros.com/south-dakota/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/south-dakota/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/tennessee/roofing-by-material (noindex)
-- https://www.findroofingpros.com/tennessee/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/tennessee/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/tennessee/specialty-services (noindex)
-- https://www.findroofingpros.com/texas/roofing-by-material (noindex)
-- https://www.findroofingpros.com/texas/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/texas/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/texas/specialty-services (noindex)
-- https://www.findroofingpros.com/utah/roofing-by-material (noindex)
-- https://www.findroofingpros.com/utah/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/utah/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/utah/specialty-services (noindex)
-- https://www.findroofingpros.com/vermont/roofing-by-material (noindex)
-- https://www.findroofingpros.com/vermont/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/vermont/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/vermont/specialty-services (noindex)
-- https://www.findroofingpros.com/virginia/roofing-by-material (noindex)
-- https://www.findroofingpros.com/virginia/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/virginia/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/virginia/specialty-services (noindex)
-- https://www.findroofingpros.com/washington/roofing-by-material (noindex)
-- https://www.findroofingpros.com/washington/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/washington/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/washington/specialty-services (noindex)
-- https://www.findroofingpros.com/west-virginia/roofing-by-material (noindex)
-- https://www.findroofingpros.com/west-virginia/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/west-virginia/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/wisconsin/roofing-by-material (noindex)
-- https://www.findroofingpros.com/wisconsin/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/wisconsin/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/wisconsin/specialty-services (noindex)
-- https://www.findroofingpros.com/wyoming/roofing-by-material (noindex)
-- https://www.findroofingpros.com/wyoming/roofing-by-property-type (noindex)
-- https://www.findroofingpros.com/wyoming/roofing-by-service-type (noindex)
-- https://www.findroofingpros.com/wyoming/specialty-services (noindex)
-
-</details>
 
 ## static
 
@@ -245,10 +53,16 @@ Checked 0 pages this run (0 transient, kept previous verdict).
 
 ## profiles
 
-- Candidates: 16754 (not yet checked: 0)
-- Listed: 16734 (previous: 16734)
-- Added: 0, removed: 0
-- Verdicts: pass 16734, canonical-elsewhere 18, http-301 2
+- Candidates: 16755 (not yet checked: 0)
+- Listed: 16735 (previous: 16734)
+- Added: 1, removed: 0
+- Verdicts: pass 16735, canonical-elsewhere 18, http-301 2
+
+<details><summary>Added (1)</summary>
+
+- https://www.findroofingpros.com/oregon/klamath-falls/sg-roofing-and-construction-llc
+
+</details>
 
 ## Thin pages Google can still index
 
