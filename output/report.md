@@ -1,6 +1,6 @@
 # Sitemap build 2026-10-23
 
-Checked 3048 pages this run (0 transient, kept previous verdict).
+Checked 29 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -26,14 +26,13 @@ Checked 3048 pages this run (0 transient, kept previous verdict).
 ## posts
 
 - Candidates: 49 (not yet checked: 0)
-- Listed: 49 (previous: 47)
-- Added: 2, removed: 0
-- Verdicts: pass 49
+- Listed: 48 (previous: 49)
+- Added: 0, removed: 1
+- Verdicts: pass 48, scheduled 1
 
-<details><summary>Added (2)</summary>
+<details><summary>Removed (1)</summary>
 
-- https://www.findroofingpros.com/blog/how-to-find-a-licensed-roofing-contractor-in-virginia
-- https://www.findroofingpros.com/blog/how-to-get-roofing-leads-10-ways-for-roofing-contractors-2026
+- https://www.findroofingpros.com/blog/how-to-find-a-licensed-roofing-contractor-in-virginia (scheduled)
 
 </details>
 
@@ -43,6 +42,46 @@ Checked 3048 pages this run (0 transient, kept previous verdict).
 - Listed: 689 (previous: 689)
 - Added: 0, removed: 0
 - Verdicts: pass 689, noindex 474
+
+## hubs
+
+- Candidates: 28 (not yet checked: 0)
+- Listed: 28 (previous: –)
+- Added: 28, removed: 0
+- Verdicts: pass 28
+
+<details><summary>Added (28)</summary>
+
+- https://www.findroofingpros.com/asphalt-shingles
+- https://www.findroofingpros.com/attic-insulation
+- https://www.findroofingpros.com/chimney-repair-flashing
+- https://www.findroofingpros.com/commercial-roofing
+- https://www.findroofingpros.com/emergency-roofing
+- https://www.findroofingpros.com/flat-roofing
+- https://www.findroofingpros.com/foam-roofing
+- https://www.findroofingpros.com/gutter-installation-repair
+- https://www.findroofingpros.com/industrial-roofing
+- https://www.findroofingpros.com/metal-roofing
+- https://www.findroofingpros.com/multi-family-roofing
+- https://www.findroofingpros.com/residential-roofing
+- https://www.findroofingpros.com/roof-inspection
+- https://www.findroofingpros.com/roof-installation
+- https://www.findroofingpros.com/roof-repair
+- https://www.findroofingpros.com/roof-replacement
+- https://www.findroofingpros.com/roof-ventilation
+- https://www.findroofingpros.com/roofing-by-material
+- https://www.findroofingpros.com/roofing-by-property-type
+- https://www.findroofingpros.com/roofing-by-service-type
+- https://www.findroofingpros.com/roofing-contractor
+- https://www.findroofingpros.com/skylight-installation
+- https://www.findroofingpros.com/slate-roofing
+- https://www.findroofingpros.com/solar-roofing
+- https://www.findroofingpros.com/specialty-services
+- https://www.findroofingpros.com/storm-damage-repair
+- https://www.findroofingpros.com/tile-roofing
+- https://www.findroofingpros.com/wood-shake-shingles
+
+</details>
 
 ## static
 
@@ -54,15 +93,9 @@ Checked 3048 pages this run (0 transient, kept previous verdict).
 ## profiles
 
 - Candidates: 16755 (not yet checked: 0)
-- Listed: 16735 (previous: 16734)
-- Added: 1, removed: 0
+- Listed: 16735 (previous: 16735)
+- Added: 0, removed: 0
 - Verdicts: pass 16735, canonical-elsewhere 18, http-301 2
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/oregon/klamath-falls/sg-roofing-and-construction-llc
-
-</details>
 
 ## Thin pages Google can still index
 
