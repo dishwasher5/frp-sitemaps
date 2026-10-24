@@ -1,6 +1,6 @@
-# Sitemap build 2026-10-23
+# Sitemap build 2026-10-24
 
-Checked 29 pages this run (0 transient, kept previous verdict).
+Checked 3056 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -26,15 +26,9 @@ Checked 29 pages this run (0 transient, kept previous verdict).
 ## posts
 
 - Candidates: 49 (not yet checked: 0)
-- Listed: 48 (previous: 49)
-- Added: 0, removed: 1
+- Listed: 48 (previous: 48)
+- Added: 0, removed: 0
 - Verdicts: pass 48, scheduled 1
-
-<details><summary>Removed (1)</summary>
-
-- https://www.findroofingpros.com/blog/how-to-find-a-licensed-roofing-contractor-in-virginia (scheduled)
-
-</details>
 
 ## state-service
 
@@ -46,42 +40,9 @@ Checked 29 pages this run (0 transient, kept previous verdict).
 ## hubs
 
 - Candidates: 28 (not yet checked: 0)
-- Listed: 28 (previous: –)
-- Added: 28, removed: 0
+- Listed: 28 (previous: 28)
+- Added: 0, removed: 0
 - Verdicts: pass 28
-
-<details><summary>Added (28)</summary>
-
-- https://www.findroofingpros.com/asphalt-shingles
-- https://www.findroofingpros.com/attic-insulation
-- https://www.findroofingpros.com/chimney-repair-flashing
-- https://www.findroofingpros.com/commercial-roofing
-- https://www.findroofingpros.com/emergency-roofing
-- https://www.findroofingpros.com/flat-roofing
-- https://www.findroofingpros.com/foam-roofing
-- https://www.findroofingpros.com/gutter-installation-repair
-- https://www.findroofingpros.com/industrial-roofing
-- https://www.findroofingpros.com/metal-roofing
-- https://www.findroofingpros.com/multi-family-roofing
-- https://www.findroofingpros.com/residential-roofing
-- https://www.findroofingpros.com/roof-inspection
-- https://www.findroofingpros.com/roof-installation
-- https://www.findroofingpros.com/roof-repair
-- https://www.findroofingpros.com/roof-replacement
-- https://www.findroofingpros.com/roof-ventilation
-- https://www.findroofingpros.com/roofing-by-material
-- https://www.findroofingpros.com/roofing-by-property-type
-- https://www.findroofingpros.com/roofing-by-service-type
-- https://www.findroofingpros.com/roofing-contractor
-- https://www.findroofingpros.com/skylight-installation
-- https://www.findroofingpros.com/slate-roofing
-- https://www.findroofingpros.com/solar-roofing
-- https://www.findroofingpros.com/specialty-services
-- https://www.findroofingpros.com/storm-damage-repair
-- https://www.findroofingpros.com/tile-roofing
-- https://www.findroofingpros.com/wood-shake-shingles
-
-</details>
 
 ## static
 
