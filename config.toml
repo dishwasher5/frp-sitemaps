@@ -97,6 +97,8 @@ link_sources = ["blog"]      # BD's post file lags new releases (posts 100/101 m
 link_pattern = "blog/[a-z0-9-]+"
 derive_drop_first = []
 exclude = []
+# RSS of the newest posts, served at /feed.xml by a proxy widget (MIN_URLS counts <item>)
+feed = { output = "feed.xml", path = "feed.xml", items = 20, title = "Find Roofing Pros Blog", description = "Roofing cost guides, state licensing guides and homeowner advice from Find Roofing Pros." }
 
 [[group]]
 name = "state-service"

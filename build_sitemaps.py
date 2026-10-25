@@ -20,6 +20,7 @@ Usage:
 
 import argparse
 import hashlib
+import html
 import json
 import os
 import random
@@ -51,6 +52,8 @@ MODIFIED_RE = re.compile(r'"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2}(?:T[0-9:.]+(
 # JSON-LD datePublished: BD serves scheduled posts (200, index) before their date, so a post
 # published in the future stays out until then (H8, 2026-10-23: the Virginia guide due Nov 3)
 PUBLISHED_RE = re.compile(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2}(?:T[0-9:.]+(?:Z|[+-]\d{2}:\d{2}))?)"')
+# RSS items (posts only): JSON-LD headline + meta description
+HEADLINE_RE = re.compile(r'"headline"\s*:\s*("(?:[^"\\]|\\.)*")')
 
 TRANSIENT = "transient"
 
@@ -130,6 +133,12 @@ def inspect(url, status, headers, body):
     m = PUBLISHED_RE.search(body)
     if m:
         info["published"] = m.group(1)
+        m = HEADLINE_RE.search(body)
+        if m:
+            try:
+                info["title"] = json.loads(m.group(1)).strip()
+            except ValueError:
+                pass
     if "noindex" in headers.get("x-robots-tag", "").lower():
         info["noindex"] = True
     for tag in META_RE.findall(body):
@@ -137,6 +146,8 @@ def inspect(url, status, headers, body):
         name = (a.get("name") or "").lower()
         if name in ("robots", "googlebot") and "noindex" in (a.get("content") or "").lower():
             info["noindex"] = True
+        if name == "description" and info["published"]:
+            info["desc"] = html.unescape(a.get("content") or "").strip()
         if (a.get("itemprop") or "") == "numberOfItems":
             try:
                 n = int((a.get("content") or "").strip())
@@ -203,7 +214,8 @@ def check_url(url, cfg, group, limiter, deadline):
         ok, reason = verdict(url, info, cfg["rules"], min_c)
     return url, {"ok": ok, "reason": reason, "count": info["count"],
                  "status": info["status"], "noindex": info["noindex"],
-                 "modified": info["modified"], "fp": info["fp"]}
+                 "modified": info["modified"], "fp": info["fp"],
+                 "published": info["published"], "title": info.get("title"), "desc": info.get("desc")}
 
 
 # ── Candidates ──────────────────────────────────────────────────────────
@@ -329,6 +341,47 @@ def write_sitemap(path, entries):
     with open(tmp, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
     os.replace(tmp, path)
+
+
+def _rfc822(stamp):
+    dt = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.strftime("%a, %d %b %Y %H:%M:%S %z")
+
+
+def write_feed(path, feed, site, posts):
+    """RSS 2.0 of the newest listed posts. posts: list of (url, state record); only
+    posts with a headline and a past datePublished go in (scheduled ones never do)."""
+    items = sorted(((u, r) for u, r in posts if r.get("title") and r.get("published")
+                    and not is_future(r["published"])),
+                   key=lambda p: p[1]["published"], reverse=True)[:feed.get("items", 20)]
+    self_url = site.rstrip("/") + "/" + feed["path"]
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+             "<channel>",
+             f"  <title>{escape(feed['title'])}</title>",
+             f"  <link>{escape(site.rstrip('/'))}/blog</link>",
+             f"  <description>{escape(feed['description'])}</description>",
+             "  <language>en-us</language>",
+             f'  <atom:link href="{escape(self_url)}" rel="self" type="application/rss+xml"/>']
+    if items:
+        lines.append(f"  <lastBuildDate>{_rfc822(max(r.get('modified') or r['published'] for _, r in items))}</lastBuildDate>")
+    for url, r in items:
+        lines += ["  <item>",
+                  f"    <title>{escape(r['title'])}</title>",
+                  f"    <link>{escape(url)}</link>",
+                  f'    <guid isPermaLink="true">{escape(url)}</guid>',
+                  f"    <pubDate>{_rfc822(r['published'])}</pubDate>"]
+        if r.get("desc"):
+            lines.append(f"    <description>{escape(r['desc'])}</description>")
+        lines.append("  </item>")
+    lines += ["</channel>", "</rss>"]
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+    os.replace(tmp, path)
+    return len(items)
 
 
 # ── Main ────────────────────────────────────────────────────────────────
@@ -478,6 +531,11 @@ def main():
         rec.update({"checked": today.isoformat(), "ok": r["ok"], "reason": r["reason"],
                     "count": r["count"], "status": r["status"], "noindex": r["noindex"],
                     "modified": r["modified"], "group": group_of[url]})
+        for k in ("published", "title", "desc"):   # posts only, kept out of the ~17k other records
+            if r.get(k):
+                rec[k] = r[k]
+            else:
+                rec.pop(k, None)
         if changed or "changed" not in rec:
             rec["changed"] = today.isoformat()
         state[url] = rec
@@ -519,6 +577,11 @@ def main():
                           f"If the drop is intended, re-run the workflow with accept_drop.")
         else:
             write_sitemap(out_path, listed)
+            if group.get("feed"):
+                feed = group["feed"]
+                n = write_feed(os.path.join(OUT_DIR, feed["output"]), feed, cfg["site"],
+                               [(u, state[u]) for u, _ in listed])
+                report += [f"RSS feed `{feed['output']}`: {n} posts.", ""]
 
         reasons = Counter(state[u].get("reason") or "pass" for u in cands if u in state)
         added, removed = sorted(new_urls - prev_urls), sorted(prev_urls - new_urls)
