@@ -1,4 +1,4 @@
-# Sitemap build 2026-10-25
+# Sitemap build 2026-10-26
 
 Checked 3056 pages this run (0 transient, kept previous verdict).
 
@@ -22,6 +22,8 @@ Checked 3056 pages this run (0 transient, kept previous verdict).
 - Listed: 51 (previous: 51)
 - Added: 0, removed: 0
 - Verdicts: pass 51
+
+RSS feed `feed.xml`: 20 posts.
 
 ## posts
 
