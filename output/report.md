@@ -1,6 +1,6 @@
 # Sitemap build 2026-10-26
 
-Checked 3056 pages this run (0 transient, kept previous verdict).
+Checked 2 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -27,10 +27,16 @@ RSS feed `feed.xml`: 20 posts.
 
 ## posts
 
-- Candidates: 49 (not yet checked: 0)
-- Listed: 48 (previous: 48)
-- Added: 0, removed: 0
-- Verdicts: pass 48, scheduled 1
+- Candidates: 50 (not yet checked: 0)
+- Listed: 49 (previous: 48)
+- Added: 1, removed: 0
+- Verdicts: pass 49, scheduled 1
+
+<details><summary>Added (1)</summary>
+
+- https://www.findroofingpros.com/blog/roofing-statistics-2026
+
+</details>
 
 ## state-service
 
