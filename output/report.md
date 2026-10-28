@@ -1,20 +1,13 @@
-# Sitemap build 2026-10-27
+# Sitemap build 2026-10-28
 
-Checked 8467 pages this run (0 transient, kept previous verdict).
+Checked 9000 pages this run (0 transient, kept previous verdict).
 
 ## city
 
 - Candidates: 5212 (not yet checked: 0)
-- Listed: 1592 (previous: 1590)
-- Added: 2, removed: 0
+- Listed: 1592 (previous: 1592)
+- Added: 0, removed: 0
 - Verdicts: noindex 3476, pass 1592, http-404 144
-
-<details><summary>Added (2)</summary>
-
-- https://www.findroofingpros.com/clayton
-- https://www.findroofingpros.com/north-carolina/clayton
-
-</details>
 
 ## city-service
 
@@ -36,20 +29,8 @@ RSS feed `feed.xml`: 20 posts.
 
 - Candidates: 51 (not yet checked: 0)
 - Listed: 49 (previous: 49)
-- Added: 1, removed: 1
+- Added: 0, removed: 0
 - Verdicts: pass 49, scheduled 1, http-301 1
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/blog/ice-dam-removal-safe-methods-cost-and-when-to-call-a-pro
-
-</details>
-
-<details><summary>Removed (1)</summary>
-
-- https://www.findroofingpros.com/blog/ice-dams-what-every-new-england-homeowner-needs-to-know (http-301)
-
-</details>
 
 ## state-service
 
