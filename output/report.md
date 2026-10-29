@@ -1,4 +1,4 @@
-# Sitemap build 2026-10-28
+# Sitemap build 2026-10-29
 
 Checked 9000 pages this run (0 transient, kept previous verdict).
 
@@ -56,9 +56,17 @@ RSS feed `feed.xml`: 20 posts.
 ## profiles
 
 - Candidates: 16755 (not yet checked: 0)
-- Listed: 16735 (previous: 16735)
-- Added: 0, removed: 0
-- Verdicts: pass 16735, canonical-elsewhere 18, http-301 2
+- Listed: 16732 (previous: 16735)
+- Added: 0, removed: 3
+- Verdicts: pass 16732, canonical-elsewhere 18, http-301 3, http-404 2
+
+<details><summary>Removed (3)</summary>
+
+- https://www.findroofingpros.com/oregon/klamath-falls/sg-roofing-and-construction-llc-ccb-232718 (http-301)
+- https://www.findroofingpros.com/pennsylvania/cochranton/golden-commercial-roofing (http-404)
+- https://www.findroofingpros.com/texas/austin/solaron-services (http-404)
+
+</details>
 
 ## Thin pages Google can still index
 
