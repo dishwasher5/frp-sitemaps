@@ -1,13 +1,19 @@
-# Sitemap build 2026-11-01
+# Sitemap build 2026-11-02
 
 Checked 3051 pages this run (0 transient, kept previous verdict).
 
 ## city
 
 - Candidates: 5216 (not yet checked: 0)
-- Listed: 1592 (previous: 1592)
-- Added: 0, removed: 0
-- Verdicts: noindex 3480, pass 1592, http-404 144
+- Listed: 1591 (previous: 1592)
+- Added: 0, removed: 1
+- Verdicts: noindex 3481, pass 1591, http-404 144
+
+<details><summary>Removed (1)</summary>
+
+- https://www.findroofingpros.com/washington/mill-creek (noindex)
+
+</details>
 
 ## city-service
 
