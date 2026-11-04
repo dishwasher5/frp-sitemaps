@@ -1,80 +1,223 @@
-# Sitemap build 2026-11-03
+# Sitemap build 2026-11-04
 
-Checked 8456 pages this run (0 transient, kept previous verdict).
+Checked 3001 pages this run (0 transient, kept previous verdict).
 
 ## city
 
 - Candidates: 5216 (not yet checked: 0)
-- Listed: 1577 (previous: 1591)
-- Added: 4, removed: 18
+- Listed: 1577 (previous: 1577)
+- Added: 0, removed: 0
 - Verdicts: noindex 3483, pass 1577, http-404 146, no-canonical 10
 
-<details><summary>Added (4)</summary>
-
-- https://www.findroofingpros.com/california/downey
-- https://www.findroofingpros.com/north-carolina/smithfield
-- https://www.findroofingpros.com/pennsylvania/glen-mills
-- https://www.findroofingpros.com/smithfield
-
-</details>
-
-<details><summary>Removed (18)</summary>
-
-- https://www.findroofingpros.com/alabama/valley (noindex)
-- https://www.findroofingpros.com/louisiana/minden (noindex)
-- https://www.findroofingpros.com/maryland/clarksburg (noindex)
-- https://www.findroofingpros.com/maryland/havre-de-grace (noindex)
-- https://www.findroofingpros.com/michigan/rochester-hills (noindex)
-- https://www.findroofingpros.com/missouri/sullivan (noindex)
-- https://www.findroofingpros.com/nebraska/roca (noindex)
-- https://www.findroofingpros.com/new-york/chestnut-ridge (noindex)
-- https://www.findroofingpros.com/new-york/cohoes (noindex)
-- https://www.findroofingpros.com/new-york/monticello (noindex)
-- https://www.findroofingpros.com/new-york/nyack (noindex)
-- https://www.findroofingpros.com/oklahoma/colcord (noindex)
-- https://www.findroofingpros.com/oregon/oregon-city (noindex)
-- https://www.findroofingpros.com/pennsylvania/horsham (noindex)
-- https://www.findroofingpros.com/pennsylvania/new-castle (noindex)
-- https://www.findroofingpros.com/texas/mineral-wells (noindex)
-- https://www.findroofingpros.com/virginia/powhatan (noindex)
-- https://www.findroofingpros.com/wisconsin/mequon (noindex)
-
-</details>
-
-## city-service
+## city-service — NOT PUBLISHED
 
 - Candidates: 7274 (not yet checked: 0)
-- Listed: 590 (previous: 615)
-- Added: 0, removed: 25
-- Verdicts: noindex 6212, pass 590, http-404 462, http-301 9, no-count 1
+- Listed: 19 (previous: 590)
+- Added: 0, removed: 571
+- Verdicts: noindex 6783, http-404 462, pass 19, http-301 9, no-count 1
 
-<details><summary>Removed (25)</summary>
+<details><summary>Removed (571)</summary>
 
-- https://www.findroofingpros.com/kentucky/covington/commercial-roofing (noindex)
-- https://www.findroofingpros.com/kentucky/covington/flat-roofing (noindex)
-- https://www.findroofingpros.com/kentucky/covington/industrial-roofing (noindex)
-- https://www.findroofingpros.com/kentucky/covington/metal-roofing (noindex)
-- https://www.findroofingpros.com/kentucky/covington/roof-inspection (noindex)
-- https://www.findroofingpros.com/kentucky/covington/roof-installation (noindex)
-- https://www.findroofingpros.com/kentucky/covington/roof-repair (noindex)
-- https://www.findroofingpros.com/kentucky/covington/roof-replacement (noindex)
-- https://www.findroofingpros.com/new-york/brooklyn/industrial-roofing (noindex)
-- https://www.findroofingpros.com/ohio/canton/gutter-installation-repair (noindex)
-- https://www.findroofingpros.com/ohio/canton/roof-installation (noindex)
-- https://www.findroofingpros.com/ohio/canton/skylight-installation (noindex)
-- https://www.findroofingpros.com/oklahoma/colcord/asphalt-shingles (noindex)
-- https://www.findroofingpros.com/oklahoma/colcord/commercial-roofing (noindex)
-- https://www.findroofingpros.com/oklahoma/colcord/residential-roofing (noindex)
-- https://www.findroofingpros.com/oklahoma/colcord/roof-inspection (noindex)
-- https://www.findroofingpros.com/oklahoma/colcord/roof-installation (noindex)
-- https://www.findroofingpros.com/oklahoma/colcord/roof-repair (noindex)
-- https://www.findroofingpros.com/oklahoma/colcord/roof-replacement (noindex)
-- https://www.findroofingpros.com/oklahoma/colcord/storm-damage-repair (noindex)
-- https://www.findroofingpros.com/tennessee/lebanon/asphalt-shingles (noindex)
-- https://www.findroofingpros.com/tennessee/lebanon/residential-roofing (noindex)
-- https://www.findroofingpros.com/tennessee/lebanon/roof-installation (noindex)
-- https://www.findroofingpros.com/tennessee/lebanon/roof-repair (noindex)
-- https://www.findroofingpros.com/tennessee/lebanon/roof-replacement (noindex)
+- https://www.findroofingpros.com/alaska/anchorage/residential-roofing (noindex)
+- https://www.findroofingpros.com/alaska/anchorage/roof-repair (noindex)
+- https://www.findroofingpros.com/alaska/anchorage/roof-replacement (noindex)
+- https://www.findroofingpros.com/arizona/tucson/asphalt-shingles (noindex)
+- https://www.findroofingpros.com/arizona/tucson/commercial-roofing (noindex)
+- https://www.findroofingpros.com/arizona/tucson/emergency-roofing (noindex)
+- https://www.findroofingpros.com/arizona/tucson/flat-roofing (noindex)
+- https://www.findroofingpros.com/arizona/tucson/gutter-installation-repair (noindex)
+- https://www.findroofingpros.com/arizona/tucson/metal-roofing (noindex)
+- https://www.findroofingpros.com/arizona/tucson/residential-roofing (noindex)
+- https://www.findroofingpros.com/arizona/tucson/roof-inspection (noindex)
+- https://www.findroofingpros.com/arizona/tucson/roof-installation (noindex)
+- https://www.findroofingpros.com/arizona/tucson/roof-replacement (noindex)
+- https://www.findroofingpros.com/arizona/tucson/skylight-installation (noindex)
+- https://www.findroofingpros.com/arizona/tucson/storm-damage-repair (noindex)
+- https://www.findroofingpros.com/arizona/tucson/tile-roofing (noindex)
+- https://www.findroofingpros.com/arkansas/hot-springs/commercial-roofing (noindex)
+- https://www.findroofingpros.com/arkansas/hot-springs/flat-roofing (noindex)
+- https://www.findroofingpros.com/arkansas/hot-springs/foam-roofing (noindex)
+- https://www.findroofingpros.com/arkansas/hot-springs/industrial-roofing (noindex)
+- https://www.findroofingpros.com/arkansas/hot-springs/metal-roofing (noindex)
+- https://www.findroofingpros.com/arkansas/hot-springs/roof-installation (noindex)
+- https://www.findroofingpros.com/arkansas/hot-springs/roof-repair (noindex)
+- https://www.findroofingpros.com/arkansas/hot-springs/roof-replacement (noindex)
+- https://www.findroofingpros.com/california/sacramento/asphalt-shingles (noindex)
+- https://www.findroofingpros.com/california/sacramento/commercial-roofing (noindex)
+- https://www.findroofingpros.com/california/sacramento/emergency-roofing (noindex)
+- https://www.findroofingpros.com/california/sacramento/flat-roofing (noindex)
+- https://www.findroofingpros.com/california/sacramento/gutter-installation-repair (noindex)
+- https://www.findroofingpros.com/california/sacramento/metal-roofing (noindex)
+- https://www.findroofingpros.com/california/sacramento/residential-roofing (noindex)
+- https://www.findroofingpros.com/california/sacramento/roof-inspection (noindex)
+- https://www.findroofingpros.com/california/sacramento/roof-installation (noindex)
+- https://www.findroofingpros.com/california/sacramento/roof-repair (noindex)
+- https://www.findroofingpros.com/california/sacramento/roof-replacement (noindex)
+- https://www.findroofingpros.com/california/sacramento/roof-ventilation (noindex)
+- https://www.findroofingpros.com/california/sacramento/storm-damage-repair (noindex)
+- https://www.findroofingpros.com/california/sacramento/tile-roofing (noindex)
+- https://www.findroofingpros.com/california/san-diego/asphalt-shingles (noindex)
+- https://www.findroofingpros.com/california/san-diego/commercial-roofing (noindex)
+- https://www.findroofingpros.com/california/san-diego/emergency-roofing (noindex)
+- https://www.findroofingpros.com/california/san-diego/flat-roofing (noindex)
+- https://www.findroofingpros.com/california/san-diego/gutter-installation-repair (noindex)
+- https://www.findroofingpros.com/california/san-diego/industrial-roofing (noindex)
+- https://www.findroofingpros.com/california/san-diego/metal-roofing (noindex)
+- https://www.findroofingpros.com/california/san-diego/multi-family-roofing (noindex)
+- https://www.findroofingpros.com/california/san-diego/residential-roofing (noindex)
+- https://www.findroofingpros.com/california/san-diego/roof-inspection (noindex)
+- https://www.findroofingpros.com/california/san-diego/roof-installation (noindex)
+- https://www.findroofingpros.com/california/san-diego/roof-replacement (noindex)
+- https://www.findroofingpros.com/california/san-diego/roof-ventilation (noindex)
+- https://www.findroofingpros.com/california/san-diego/skylight-installation (noindex)
+- https://www.findroofingpros.com/california/san-diego/storm-damage-repair (noindex)
+- https://www.findroofingpros.com/california/san-diego/tile-roofing (noindex)
+- https://www.findroofingpros.com/california/san-diego/wood-shake-shingles (noindex)
+- https://www.findroofingpros.com/california/san-francisco/asphalt-shingles (noindex)
+- https://www.findroofingpros.com/california/san-francisco/chimney-repair-flashing (noindex)
+- https://www.findroofingpros.com/california/san-francisco/commercial-roofing (noindex)
+- https://www.findroofingpros.com/california/san-francisco/emergency-roofing (noindex)
+- https://www.findroofingpros.com/california/san-francisco/flat-roofing (noindex)
+- https://www.findroofingpros.com/california/san-francisco/gutter-installation-repair (noindex)
+- https://www.findroofingpros.com/california/san-francisco/industrial-roofing (noindex)
+- https://www.findroofingpros.com/california/san-francisco/metal-roofing (noindex)
+- https://www.findroofingpros.com/california/san-francisco/multi-family-roofing (noindex)
+- https://www.findroofingpros.com/california/san-francisco/residential-roofing (noindex)
+- https://www.findroofingpros.com/california/san-francisco/roof-inspection (noindex)
+- https://www.findroofingpros.com/california/san-francisco/roof-installation (noindex)
+- https://www.findroofingpros.com/california/san-francisco/roof-repair (noindex)
+- https://www.findroofingpros.com/california/san-francisco/roof-replacement (noindex)
+- https://www.findroofingpros.com/california/san-francisco/roof-ventilation (noindex)
+- https://www.findroofingpros.com/california/san-francisco/skylight-installation (noindex)
+- https://www.findroofingpros.com/california/san-francisco/slate-roofing (noindex)
+- https://www.findroofingpros.com/california/san-francisco/storm-damage-repair (noindex)
+- https://www.findroofingpros.com/california/san-francisco/tile-roofing (noindex)
+- https://www.findroofingpros.com/california/san-francisco/wood-shake-shingles (noindex)
+- https://www.findroofingpros.com/california/san-jose/asphalt-shingles (noindex)
+- https://www.findroofingpros.com/california/san-jose/commercial-roofing (noindex)
+- https://www.findroofingpros.com/california/san-jose/emergency-roofing (noindex)
+- https://www.findroofingpros.com/california/san-jose/flat-roofing (noindex)
+- https://www.findroofingpros.com/california/san-jose/gutter-installation-repair (noindex)
+- https://www.findroofingpros.com/california/san-jose/metal-roofing (noindex)
+- https://www.findroofingpros.com/california/san-jose/residential-roofing (noindex)
+- https://www.findroofingpros.com/california/san-jose/roof-inspection (noindex)
+- https://www.findroofingpros.com/california/san-jose/roof-installation (noindex)
+- https://www.findroofingpros.com/california/san-jose/roof-repair (noindex)
+- https://www.findroofingpros.com/california/san-jose/roof-replacement (noindex)
+- https://www.findroofingpros.com/california/san-jose/roof-ventilation (noindex)
+- https://www.findroofingpros.com/california/san-jose/skylight-installation (noindex)
+- https://www.findroofingpros.com/california/san-jose/storm-damage-repair (noindex)
+- https://www.findroofingpros.com/california/san-jose/tile-roofing (noindex)
+- https://www.findroofingpros.com/california/san-jose/wood-shake-shingles (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/asphalt-shingles (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/commercial-roofing (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/emergency-roofing (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/flat-roofing (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/gutter-installation-repair (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/metal-roofing (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/residential-roofing (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/roof-inspection (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/roof-installation (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/roof-repair (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/roof-replacement (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/roof-ventilation (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/storm-damage-repair (noindex)
+- https://www.findroofingpros.com/california/south-san-francisco/tile-roofing (noindex)
+- https://www.findroofingpros.com/colorado/aurora/commercial-roofing (noindex)
+- https://www.findroofingpros.com/colorado/aurora/flat-roofing (noindex)
+- https://www.findroofingpros.com/colorado/aurora/gutter-installation-repair (noindex)
+- https://www.findroofingpros.com/colorado/aurora/metal-roofing (noindex)
+- https://www.findroofingpros.com/colorado/aurora/residential-roofing (noindex)
+- https://www.findroofingpros.com/colorado/aurora/roof-installation (noindex)
+- https://www.findroofingpros.com/colorado/aurora/roof-repair (noindex)
+- https://www.findroofingpros.com/colorado/aurora/roof-replacement (noindex)
+- https://www.findroofingpros.com/colorado/aurora/tile-roofing (noindex)
+- https://www.findroofingpros.com/columbia/commercial-roofing (noindex)
+- https://www.findroofingpros.com/columbia/metal-roofing (noindex)
+- https://www.findroofingpros.com/columbia/residential-roofing (noindex)
+- https://www.findroofingpros.com/columbia/roof-repair (noindex)
+- https://www.findroofingpros.com/columbia/roof-replacement (noindex)
+- https://www.findroofingpros.com/columbia/storm-damage-repair (noindex)
+- https://www.findroofingpros.com/covington/commercial-roofing (noindex)
+- https://www.findroofingpros.com/covington/flat-roofing (noindex)
+- https://www.findroofingpros.com/covington/industrial-roofing (noindex)
+- https://www.findroofingpros.com/covington/metal-roofing (noindex)
+- https://www.findroofingpros.com/covington/roof-inspection (noindex)
+- https://www.findroofingpros.com/covington/roof-installation (noindex)
+- https://www.findroofingpros.com/covington/roof-repair (noindex)
+- https://www.findroofingpros.com/covington/roof-replacement (noindex)
+- https://www.findroofingpros.com/delaware/bear/flat-roofing (noindex)
+- https://www.findroofingpros.com/delaware/bear/metal-roofing (noindex)
+- https://www.findroofingpros.com/delaware/bear/slate-roofing (noindex)
+- https://www.findroofingpros.com/delaware/lewes/commercial-roofing (noindex)
+- https://www.findroofingpros.com/delaware/lewes/gutter-installation-repair (noindex)
+- https://www.findroofingpros.com/delaware/lewes/residential-roofing (noindex)
+- https://www.findroofingpros.com/delaware/lewes/roof-installation (noindex)
+- https://www.findroofingpros.com/delaware/lewes/roof-repair (noindex)
+- https://www.findroofingpros.com/delaware/lewes/roof-replacement (noindex)
+- https://www.findroofingpros.com/delaware/lewes/solar-roofing (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/asphalt-shingles (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/chimney-repair-flashing (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/commercial-roofing (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/emergency-roofing (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/flat-roofing (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/gutter-installation-repair (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/industrial-roofing (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/metal-roofing (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/multi-family-roofing (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/residential-roofing (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/roof-inspection (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/roof-installation (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/roof-repair (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/roof-replacement (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/roof-ventilation (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/skylight-installation (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/storm-damage-repair (noindex)
+- https://www.findroofingpros.com/district-of-columbia/washington/tile-roofing (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/asphalt-shingles (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/commercial-roofing (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/emergency-roofing (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/flat-roofing (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/gutter-installation-repair (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/metal-roofing (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/residential-roofing (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/roof-inspection (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/roof-installation (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/roof-repair (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/roof-replacement (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/roof-ventilation (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/storm-damage-repair (noindex)
+- https://www.findroofingpros.com/florida/fort-myers/tile-roofing (noindex)
+- https://www.findroofingpros.com/florida/jacksonville/asphalt-shingles (noindex)
+- https://www.findroofingpros.com/florida/jacksonville/commercial-roofing (noindex)
+- https://www.findroofingpros.com/florida/jacksonville/residential-roofing (noindex)
+- https://www.findroofingpros.com/florida/jacksonville/roof-inspection (noindex)
+- https://www.findroofingpros.com/florida/jacksonville/roof-installation (noindex)
+- https://www.findroofingpros.com/florida/jacksonville/roof-repair (noindex)
+- https://www.findroofingpros.com/florida/jacksonville/roof-replacement (noindex)
+- https://www.findroofingpros.com/florida/tampa/commercial-roofing (noindex)
+- https://www.findroofingpros.com/florida/tampa/roof-installation (noindex)
+- https://www.findroofingpros.com/florida/tampa/roof-replacement (noindex)
+- https://www.findroofingpros.com/florida/tampa/storm-damage-repair (noindex)
+- https://www.findroofingpros.com/georgia/augusta/commercial-roofing (noindex)
+- https://www.findroofingpros.com/georgia/augusta/flat-roofing (noindex)
+- https://www.findroofingpros.com/georgia/augusta/industrial-roofing (noindex)
+- https://www.findroofingpros.com/georgia/augusta/metal-roofing (noindex)
+- https://www.findroofingpros.com/georgia/augusta/roof-inspection (noindex)
+- https://www.findroofingpros.com/georgia/augusta/roof-installation (noindex)
+- https://www.findroofingpros.com/georgia/augusta/roof-repair (noindex)
+- https://www.findroofingpros.com/georgia/augusta/roof-replacement (noindex)
+- https://www.findroofingpros.com/georgia/covington/commercial-roofing (noindex)
+- https://www.findroofingpros.com/georgia/covington/flat-roofing (noindex)
+- https://www.findroofingpros.com/georgia/covington/industrial-roofing (noindex)
+- https://www.findroofingpros.com/georgia/covington/metal-roofing (noindex)
+- https://www.findroofingpros.com/georgia/covington/roof-inspection (noindex)
+- https://www.findroofingpros.com/georgia/covington/roof-installation (noindex)
+- https://www.findroofingpros.com/georgia/covington/roof-repair (noindex)
+- https://www.findroofingpros.com/georgia/covington/roof-replacement (noindex)
+- https://www.findroofingpros.com/greenville/asphalt-shingles (noindex)
+- https://www.findroofingpros.com/greenville/commercial-roofing (noindex)
+- https://www.findroofingpros.com/greenville/metal-roofing (noindex)
 
 </details>
 
@@ -90,37 +233,16 @@ RSS feed `feed.xml`: 20 posts.
 ## posts
 
 - Candidates: 51 (not yet checked: 0)
-- Listed: 51 (previous: 50)
-- Added: 1, removed: 0
+- Listed: 51 (previous: 51)
+- Added: 0, removed: 0
 - Verdicts: pass 51
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/blog/how-to-find-a-licensed-roofing-contractor-in-virginia
-
-</details>
 
 ## state-service
 
 - Candidates: 1163 (not yet checked: 0)
-- Listed: 679 (previous: 689)
-- Added: 0, removed: 10
+- Listed: 679 (previous: 679)
+- Added: 0, removed: 0
 - Verdicts: pass 679, noindex 484
-
-<details><summary>Removed (10)</summary>
-
-- https://www.findroofingpros.com/louisiana/multi-family-roofing (noindex)
-- https://www.findroofingpros.com/texas/solar-roofing (noindex)
-- https://www.findroofingpros.com/virginia/attic-insulation (noindex)
-- https://www.findroofingpros.com/virginia/multi-family-roofing (noindex)
-- https://www.findroofingpros.com/virginia/roof-inspection (noindex)
-- https://www.findroofingpros.com/virginia/roof-ventilation (noindex)
-- https://www.findroofingpros.com/virginia/slate-roofing (noindex)
-- https://www.findroofingpros.com/virginia/tile-roofing (noindex)
-- https://www.findroofingpros.com/virginia/wood-shake-shingles (noindex)
-- https://www.findroofingpros.com/wisconsin/wood-shake-shingles (noindex)
-
-</details>
 
 ## hubs
 
