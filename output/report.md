@@ -1,6 +1,6 @@
-# Sitemap build 2026-11-04
+# Sitemap build 2026-11-05
 
-Checked 3001 pages this run (0 transient, kept previous verdict).
+Checked 2431 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -232,10 +232,16 @@ RSS feed `feed.xml`: 20 posts.
 
 ## posts
 
-- Candidates: 51 (not yet checked: 0)
-- Listed: 51 (previous: 51)
-- Added: 0, removed: 0
-- Verdicts: pass 51
+- Candidates: 52 (not yet checked: 0)
+- Listed: 52 (previous: 51)
+- Added: 1, removed: 0
+- Verdicts: pass 52
+
+<details><summary>Added (1)</summary>
+
+- https://www.findroofingpros.com/blog/how-to-tarp-a-roof-safely-and-what-your-insurer-expects
+
+</details>
 
 ## state-service
 
