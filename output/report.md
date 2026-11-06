@@ -1,20 +1,20 @@
-# Sitemap build 2026-11-05
+# Sitemap build 2026-11-06
 
-Checked 2431 pages this run (0 transient, kept previous verdict).
+Checked 7666 pages this run (0 transient, kept previous verdict).
 
 ## city
 
-- Candidates: 5216 (not yet checked: 0)
+- Candidates: 5203 (not yet checked: 0)
 - Listed: 1577 (previous: 1577)
 - Added: 0, removed: 0
-- Verdicts: noindex 3483, pass 1577, http-404 146, no-canonical 10
+- Verdicts: noindex 3481, pass 1577, http-404 135, no-canonical 10
 
 ## city-service — NOT PUBLISHED
 
-- Candidates: 7274 (not yet checked: 0)
+- Candidates: 7100 (not yet checked: 0)
 - Listed: 19 (previous: 590)
 - Added: 0, removed: 571
-- Verdicts: noindex 6783, http-404 462, pass 19, http-301 9, no-count 1
+- Verdicts: noindex 6629, http-404 442, pass 19, http-301 9, no-count 1
 
 <details><summary>Removed (571)</summary>
 
@@ -233,22 +233,16 @@ RSS feed `feed.xml`: 20 posts.
 ## posts
 
 - Candidates: 52 (not yet checked: 0)
-- Listed: 52 (previous: 51)
-- Added: 1, removed: 0
+- Listed: 52 (previous: 52)
+- Added: 0, removed: 0
 - Verdicts: pass 52
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/blog/how-to-tarp-a-roof-safely-and-what-your-insurer-expects
-
-</details>
 
 ## state-service
 
-- Candidates: 1163 (not yet checked: 0)
+- Candidates: 1142 (not yet checked: 0)
 - Listed: 679 (previous: 679)
 - Added: 0, removed: 0
-- Verdicts: pass 679, noindex 484
+- Verdicts: pass 679, noindex 463
 
 ## hubs
 
@@ -266,10 +260,75 @@ RSS feed `feed.xml`: 20 posts.
 
 ## profiles
 
-- Candidates: 16766 (not yet checked: 0)
-- Listed: 16743 (previous: 16743)
-- Added: 0, removed: 0
-- Verdicts: pass 16743, canonical-elsewhere 18, http-301 3, http-404 2
+- Candidates: 16810 (not yet checked: 0)
+- Listed: 16786 (previous: 16743)
+- Added: 49, removed: 6
+- Verdicts: pass 16786, canonical-elsewhere 18, http-301 3, http-404 2, noindex 1
+
+<details><summary>Added (49)</summary>
+
+- https://www.findroofingpros.com/alabama/chelsea/stone-creek-contractors
+- https://www.findroofingpros.com/alabama/huntsville/monarch-roofing
+- https://www.findroofingpros.com/arizona/gilbert/elite-roofing-remodeling-llc
+- https://www.findroofingpros.com/california/santa-rosa/anr-roofing
+- https://www.findroofingpros.com/california/sonora/warren-roofing-gutter
+- https://www.findroofingpros.com/california/torrance/rc-sky-roofing-torrance-ca
+- https://www.findroofingpros.com/colorado/aurora/all-quality-roofing-l-l-c
+- https://www.findroofingpros.com/colorado/denver/ac-inc-roofing
+- https://www.findroofingpros.com/colorado/denver/guarantee-construction-group
+- https://www.findroofingpros.com/connecticut/shelton/creative-home-improvement-llc-19574
+- https://www.findroofingpros.com/florida/jacksonville/valor-roofing-company
+- https://www.findroofingpros.com/florida/longwood/john-keller-roofing-inc
+- https://www.findroofingpros.com/florida/tampa/suncoast-roofing-solutions
+- https://www.findroofingpros.com/illinois/mchenry/km-construction-inc
+- https://www.findroofingpros.com/illinois/troy/oasis-roofing
+- https://www.findroofingpros.com/indiana/bloomington/cornerstone-roofing
+- https://www.findroofingpros.com/kentucky/upton/choice-roofing-solutions
+- https://www.findroofingpros.com/maine/benton/stevens-siding-window-co
+- https://www.findroofingpros.com/maine/wells/homewiz
+- https://www.findroofingpros.com/minnesota/danube/mark-and-michell-harder-construction-llc
+- https://www.findroofingpros.com/mississippi/benton/dixons-roofing
+- https://www.findroofingpros.com/missouri/lake-ozark/select-exteriors-and-roofing
+- https://www.findroofingpros.com/missouri/linn-creek/thompson-roofing-reconstruction
+- https://www.findroofingpros.com/missouri/maplewood/cardinal-catastrophe-services-inc
+- https://www.findroofingpros.com/missouri/springfield/olde-town-roofing
+- https://www.findroofingpros.com/new-jersey/lodi/north-ridge-construction-llc
+- https://www.findroofingpros.com/new-york/brooklyn/green-point-construction-company-19604
+- https://www.findroofingpros.com/new-york/brooklyn/zavza-seal-llc
+- https://www.findroofingpros.com/new-york/goshen/northern-windows-siding-roofing-and-insulation
+- https://www.findroofingpros.com/new-york/new-york/g-keith-roofing-and-waterproofing
+- https://www.findroofingpros.com/new-york/wainscott/qualityroofingandchimneyinc
+- https://www.findroofingpros.com/north-carolina/hillsborough/dodson-construction-co-inc
+- https://www.findroofingpros.com/north-carolina/smithfield/lanes-contracting-roofing-inc
+- https://www.findroofingpros.com/north-carolina/winston-salem/elite-roof-and-solar-winston-salem
+- https://www.findroofingpros.com/oklahoma/edmond/national-contractors-of-edmond
+- https://www.findroofingpros.com/oklahoma/grove/accurate-roof-systems
+- https://www.findroofingpros.com/pennsylvania/ardmore/hynes-construction-roofing-siding-gutters
+- https://www.findroofingpros.com/pennsylvania/glen-mills/civitella-contracting-co-inc
+- https://www.findroofingpros.com/pennsylvania/montrose/mooney-builders
+- https://www.findroofingpros.com/south-carolina/seneca/radiant-renovations-llc
+- https://www.findroofingpros.com/tennessee/fairview/silverbrook-property-restoration
+- https://www.findroofingpros.com/tennessee/morrison/porter-roofing
+- https://www.findroofingpros.com/texas/abilene/clear-fork-roofing-company-inc
+- https://www.findroofingpros.com/texas/austin/tx-roof-crew
+- https://www.findroofingpros.com/texas/coppell/dfw-restorations-enterprise-llc
+- https://www.findroofingpros.com/texas/denton/manning-construction-roofing-inc
+- https://www.findroofingpros.com/texas/fort-worth/salter-exteriors-roofing-remodeling
+- https://www.findroofingpros.com/washington/lynnwood/mountain-goat-roofing
+- https://www.findroofingpros.com/washington/lynnwood/roofing-specialists-northwest-2276
+
+</details>
+
+<details><summary>Removed (6)</summary>
+
+- https://www.findroofingpros.com/california/corona/evolve-epoxy-garage-floors-llc
+- https://www.findroofingpros.com/colorado/usaf-academy/husky-coatings
+- https://www.findroofingpros.com/georgia/atlanta/acc-facility-services
+- https://www.findroofingpros.com/georgia/marietta/khays-services
+- https://www.findroofingpros.com/kentucky/canada/toronto-garage-solutions
+- https://www.findroofingpros.com/utah/kamas/hard-rock-concrete-coatings
+
+</details>
 
 ## Thin pages Google can still index
 
