@@ -1,4 +1,4 @@
-# Sitemap build 2026-11-07
+# Sitemap build 2026-11-08
 
 Checked 2431 pages this run (0 transient, kept previous verdict).
 
