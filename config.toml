@@ -67,7 +67,7 @@ exclude = ["anchorage/roofing-contractor", "united-states/roofing-contractor"]  
 [[group]]
 name = "city-service"
 output = "sitemap-city-service.xml"
-min_urls = 200
+min_urls = 15                # 2026-11-03 P2: only the ~20 city+service pages with local copy stay indexed (h10/p2_cityservice_noindex.py KEEP list); raise as copy is added
 # C1: /{state}/{city}/{service} is canonical; flat /{city}/{service} only for
 # chooser cities (redirects/chooser-city-services.txt).
 sources = ["filedata/cache/xml-sitemaps/profile_search_results-state_name-city_name-service_name-1.xml"]
