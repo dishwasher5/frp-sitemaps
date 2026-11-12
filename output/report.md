@@ -1,6 +1,6 @@
-# Sitemap build 2026-11-11
+# Sitemap build 2026-11-12
 
-Checked 2432 pages this run (0 transient, kept previous verdict).
+Checked 2431 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -49,15 +49,9 @@ RSS feed `feed.xml`: 20 posts.
 ## static
 
 - Candidates: 27 (not yet checked: 0)
-- Listed: 24 (previous: 25)
-- Added: 0, removed: 1
+- Listed: 24 (previous: 24)
+- Added: 0, removed: 0
 - Verdicts: pass 24, no-canonical 2, http-301 1
-
-<details><summary>Removed (1)</summary>
-
-- https://www.findroofingpros.com/getmatched (http-301)
-
-</details>
 
 ## profiles
 
