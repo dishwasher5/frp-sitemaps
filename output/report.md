@@ -1,6 +1,6 @@
-# Sitemap build 2026-11-12
+# Sitemap build 2026-11-13
 
-Checked 2431 pages this run (0 transient, kept previous verdict).
+Checked 2464 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -11,10 +11,10 @@ Checked 2431 pages this run (0 transient, kept previous verdict).
 
 ## city-service
 
-- Candidates: 7100 (not yet checked: 0)
+- Candidates: 7124 (not yet checked: 0)
 - Listed: 19 (previous: 19)
 - Added: 0, removed: 0
-- Verdicts: noindex 6629, http-404 442, pass 19, http-301 9, no-count 1
+- Verdicts: noindex 6653, http-404 442, pass 19, http-301 9, no-count 1
 
 ## state
 
@@ -48,17 +48,28 @@ RSS feed `feed.xml`: 20 posts.
 
 ## static
 
-- Candidates: 27 (not yet checked: 0)
+- Candidates: 30 (not yet checked: 0)
 - Listed: 24 (previous: 24)
 - Added: 0, removed: 0
-- Verdicts: pass 24, no-canonical 2, http-301 1
+- Verdicts: pass 24, noindex 3, no-canonical 2, http-301 1
 
 ## profiles
 
-- Candidates: 16810 (not yet checked: 0)
-- Listed: 16378 (previous: 16378)
-- Added: 0, removed: 0
-- Verdicts: pass 16378, http-301 266, noindex 143, canonical-elsewhere 18, http-404 5
+- Candidates: 16816 (not yet checked: 0)
+- Listed: 16384 (previous: 16378)
+- Added: 6, removed: 0
+- Verdicts: pass 16384, http-301 266, noindex 143, canonical-elsewhere 18, http-404 5
+
+<details><summary>Added (6)</summary>
+
+- https://www.findroofingpros.com/florida/hialeah/seamless-gutter-masters-inc
+- https://www.findroofingpros.com/florida/jacksonville/concrete-advantage
+- https://www.findroofingpros.com/florida/west-palm-beach/palm-beach-rooftops-design
+- https://www.findroofingpros.com/illinois/lincolnshire/state-restoration-services
+- https://www.findroofingpros.com/massachusetts/hanson/kitchen-redux
+- https://www.findroofingpros.com/nebraska/grand-island/mount-zion-roofing-llc
+
+</details>
 
 ## Thin pages Google can still index
 
