@@ -1,6 +1,6 @@
-# Sitemap build 2026-11-13
+# Sitemap build 2026-11-14
 
-Checked 2464 pages this run (0 transient, kept previous verdict).
+Checked 2432 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -27,17 +27,33 @@ RSS feed `feed.xml`: 20 posts.
 
 ## posts
 
-- Candidates: 52 (not yet checked: 0)
-- Listed: 52 (previous: 52)
-- Added: 0, removed: 0
-- Verdicts: pass 52
+- Candidates: 53 (not yet checked: 0)
+- Listed: 53 (previous: 52)
+- Added: 1, removed: 0
+- Verdicts: pass 53
+
+<details><summary>Added (1)</summary>
+
+- https://www.findroofingpros.com/blog/how-to-find-a-roofing-contractor-7-steps-to-check-one-before-you-sign
+
+</details>
 
 ## state-service
 
 - Candidates: 1142 (not yet checked: 0)
-- Listed: 679 (previous: 679)
-- Added: 0, removed: 0
-- Verdicts: pass 679, noindex 463
+- Listed: 674 (previous: 679)
+- Added: 0, removed: 5
+- Verdicts: pass 674, noindex 467, http-404 1
+
+<details><summary>Removed (5)</summary>
+
+- https://www.findroofingpros.com/district-of-columbia/chimney-repair-flashing (noindex)
+- https://www.findroofingpros.com/district-of-columbia/industrial-roofing (noindex)
+- https://www.findroofingpros.com/district-of-columbia/multi-family-roofing (noindex)
+- https://www.findroofingpros.com/district-of-columbia/roof-ventilation (http-404)
+- https://www.findroofingpros.com/district-of-columbia/tile-roofing (noindex)
+
+</details>
 
 ## hubs
 
@@ -56,20 +72,9 @@ RSS feed `feed.xml`: 20 posts.
 ## profiles
 
 - Candidates: 16816 (not yet checked: 0)
-- Listed: 16384 (previous: 16378)
-- Added: 6, removed: 0
+- Listed: 16384 (previous: 16384)
+- Added: 0, removed: 0
 - Verdicts: pass 16384, http-301 266, noindex 143, canonical-elsewhere 18, http-404 5
-
-<details><summary>Added (6)</summary>
-
-- https://www.findroofingpros.com/florida/hialeah/seamless-gutter-masters-inc
-- https://www.findroofingpros.com/florida/jacksonville/concrete-advantage
-- https://www.findroofingpros.com/florida/west-palm-beach/palm-beach-rooftops-design
-- https://www.findroofingpros.com/illinois/lincolnshire/state-restoration-services
-- https://www.findroofingpros.com/massachusetts/hanson/kitchen-redux
-- https://www.findroofingpros.com/nebraska/grand-island/mount-zion-roofing-llc
-
-</details>
 
 ## Thin pages Google can still index
 
