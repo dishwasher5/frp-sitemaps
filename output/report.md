@@ -1,6 +1,6 @@
-# Sitemap build 2026-11-14
+# Sitemap build 2026-11-15
 
-Checked 2432 pages this run (0 transient, kept previous verdict).
+Checked 2427 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -28,32 +28,16 @@ RSS feed `feed.xml`: 20 posts.
 ## posts
 
 - Candidates: 53 (not yet checked: 0)
-- Listed: 53 (previous: 52)
-- Added: 1, removed: 0
+- Listed: 53 (previous: 53)
+- Added: 0, removed: 0
 - Verdicts: pass 53
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/blog/how-to-find-a-roofing-contractor-7-steps-to-check-one-before-you-sign
-
-</details>
 
 ## state-service
 
 - Candidates: 1142 (not yet checked: 0)
-- Listed: 674 (previous: 679)
-- Added: 0, removed: 5
+- Listed: 674 (previous: 674)
+- Added: 0, removed: 0
 - Verdicts: pass 674, noindex 467, http-404 1
-
-<details><summary>Removed (5)</summary>
-
-- https://www.findroofingpros.com/district-of-columbia/chimney-repair-flashing (noindex)
-- https://www.findroofingpros.com/district-of-columbia/industrial-roofing (noindex)
-- https://www.findroofingpros.com/district-of-columbia/multi-family-roofing (noindex)
-- https://www.findroofingpros.com/district-of-columbia/roof-ventilation (http-404)
-- https://www.findroofingpros.com/district-of-columbia/tile-roofing (noindex)
-
-</details>
 
 ## hubs
 
