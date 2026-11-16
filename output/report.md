@@ -1,13 +1,32 @@
-# Sitemap build 2026-11-15
+# Sitemap build 2026-11-16
 
 Checked 2427 pages this run (0 transient, kept previous verdict).
 
 ## city
 
 - Candidates: 5203 (not yet checked: 0)
-- Listed: 1578 (previous: 1578)
-- Added: 0, removed: 0
-- Verdicts: noindex 3480, pass 1578, http-404 135, no-canonical 10
+- Listed: 1564 (previous: 1578)
+- Added: 0, removed: 14
+- Verdicts: noindex 3494, pass 1564, http-404 135, no-canonical 10
+
+<details><summary>Removed (14)</summary>
+
+- https://www.findroofingpros.com/alabama/montgomery (noindex)
+- https://www.findroofingpros.com/arizona/flagstaff (noindex)
+- https://www.findroofingpros.com/arizona/sierra-vista (noindex)
+- https://www.findroofingpros.com/arkansas/bryant (noindex)
+- https://www.findroofingpros.com/california/chatsworth (noindex)
+- https://www.findroofingpros.com/california/clovis (noindex)
+- https://www.findroofingpros.com/california/dublin (noindex)
+- https://www.findroofingpros.com/california/long-beach (noindex)
+- https://www.findroofingpros.com/california/mission-viejo (noindex)
+- https://www.findroofingpros.com/indiana/jeffersonville (noindex)
+- https://www.findroofingpros.com/minnesota/andover (noindex)
+- https://www.findroofingpros.com/ohio/defiance (noindex)
+- https://www.findroofingpros.com/ohio/warren (noindex)
+- https://www.findroofingpros.com/wisconsin/fond-du-lac (noindex)
+
+</details>
 
 ## city-service
 
@@ -35,9 +54,18 @@ RSS feed `feed.xml`: 20 posts.
 ## state-service
 
 - Candidates: 1142 (not yet checked: 0)
-- Listed: 674 (previous: 674)
-- Added: 0, removed: 0
-- Verdicts: pass 674, noindex 467, http-404 1
+- Listed: 670 (previous: 674)
+- Added: 0, removed: 4
+- Verdicts: pass 670, noindex 471, http-404 1
+
+<details><summary>Removed (4)</summary>
+
+- https://www.findroofingpros.com/delaware/solar-roofing (noindex)
+- https://www.findroofingpros.com/mississippi/slate-roofing (noindex)
+- https://www.findroofingpros.com/mississippi/tile-roofing (noindex)
+- https://www.findroofingpros.com/montana/foam-roofing (noindex)
+
+</details>
 
 ## hubs
 
