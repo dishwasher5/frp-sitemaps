@@ -1,136 +1,20 @@
 # Sitemap build 2026-11-17
 
-Checked 9000 pages this run (0 transient, kept previous verdict).
+Checked 4581 pages this run (0 transient, kept previous verdict).
 
 ## city
 
 - Candidates: 5203 (not yet checked: 0)
-- Listed: 1459 (previous: 1564)
-- Added: 0, removed: 105
+- Listed: 1459 (previous: 1459)
+- Added: 0, removed: 0
 - Verdicts: noindex 3375, pass 1459, http-404 359, no-canonical 10
-
-<details><summary>Removed (105)</summary>
-
-- https://www.findroofingpros.com/arcadia (noindex)
-- https://www.findroofingpros.com/california/rio-linda (noindex)
-- https://www.findroofingpros.com/california/santa-clara (noindex)
-- https://www.findroofingpros.com/california/shasta-lake (noindex)
-- https://www.findroofingpros.com/california/south-gate (noindex)
-- https://www.findroofingpros.com/california/west-hills (noindex)
-- https://www.findroofingpros.com/california/woodland (noindex)
-- https://www.findroofingpros.com/colorado/brighton (noindex)
-- https://www.findroofingpros.com/connecticut/east-hartford (noindex)
-- https://www.findroofingpros.com/connecticut/farmington (noindex)
-- https://www.findroofingpros.com/connecticut/west-haven (noindex)
-- https://www.findroofingpros.com/florida/doral (noindex)
-- https://www.findroofingpros.com/florida/lake-mary (noindex)
-- https://www.findroofingpros.com/florida/loxahatchee (noindex)
-- https://www.findroofingpros.com/florida/lynn-haven (noindex)
-- https://www.findroofingpros.com/florida/middleburg (noindex)
-- https://www.findroofingpros.com/florida/palm-city (noindex)
-- https://www.findroofingpros.com/georgia/albany (noindex)
-- https://www.findroofingpros.com/georgia/fayetteville (noindex)
-- https://www.findroofingpros.com/georgia/lithia-springs (noindex)
-- https://www.findroofingpros.com/georgia/monticello (noindex)
-- https://www.findroofingpros.com/georgia/smyrna (noindex)
-- https://www.findroofingpros.com/georgia/stockbridge (noindex)
-- https://www.findroofingpros.com/hawaii/aiea (noindex)
-- https://www.findroofingpros.com/hawthorne (noindex)
-- https://www.findroofingpros.com/idaho/twin-falls (noindex)
-- https://www.findroofingpros.com/illinois/mattoon (noindex)
-- https://www.findroofingpros.com/illinois/o-fallon (noindex)
-- https://www.findroofingpros.com/illinois/rolling-meadows (noindex)
-- https://www.findroofingpros.com/indiana/kokomo (noindex)
-- https://www.findroofingpros.com/iowa/johnston (noindex)
-- https://www.findroofingpros.com/kentucky/ashland (noindex)
-- https://www.findroofingpros.com/kentucky/hopkinsville (noindex)
-- https://www.findroofingpros.com/kentucky/paducah (noindex)
-- https://www.findroofingpros.com/kentucky/shelbyville (noindex)
-- https://www.findroofingpros.com/kentucky/winchester (noindex)
-- https://www.findroofingpros.com/louisiana/scott (noindex)
-- https://www.findroofingpros.com/louisiana/west-monroe (noindex)
-- https://www.findroofingpros.com/maine/sanford (noindex)
-- https://www.findroofingpros.com/maryland/oxon-hill (noindex)
-- https://www.findroofingpros.com/massachusetts/franklin (noindex)
-- https://www.findroofingpros.com/massachusetts/hanson (noindex)
-- https://www.findroofingpros.com/massachusetts/needham (noindex)
-- https://www.findroofingpros.com/massachusetts/oxford (noindex)
-- https://www.findroofingpros.com/massachusetts/quincy (noindex)
-- https://www.findroofingpros.com/massachusetts/shrewsbury (noindex)
-- https://www.findroofingpros.com/massachusetts/taunton (noindex)
-- https://www.findroofingpros.com/massachusetts/weymouth (noindex)
-- https://www.findroofingpros.com/michigan/birmingham (noindex)
-- https://www.findroofingpros.com/michigan/jenison (noindex)
-- https://www.findroofingpros.com/michigan/plainwell (noindex)
-- https://www.findroofingpros.com/michigan/sterling-heights (noindex)
-- https://www.findroofingpros.com/michigan/wyoming (noindex)
-- https://www.findroofingpros.com/minnesota/north-branch (noindex)
-- https://www.findroofingpros.com/mississippi/laurel (noindex)
-- https://www.findroofingpros.com/missouri/branson (noindex)
-- https://www.findroofingpros.com/missouri/high-ridge (noindex)
-- https://www.findroofingpros.com/new-jersey/boonton (noindex)
-- https://www.findroofingpros.com/new-jersey/egg-harbor-township (noindex)
-- https://www.findroofingpros.com/new-jersey/englewood (noindex)
-- https://www.findroofingpros.com/new-jersey/ewing-township (noindex)
-- https://www.findroofingpros.com/new-jersey/fort-lee (noindex)
-- https://www.findroofingpros.com/new-jersey/kearny (noindex)
-- https://www.findroofingpros.com/new-jersey/randolph (noindex)
-- https://www.findroofingpros.com/new-jersey/verona (noindex)
-- https://www.findroofingpros.com/new-york/fairport (noindex)
-- https://www.findroofingpros.com/new-york/new-city (noindex)
-- https://www.findroofingpros.com/new-york/ossining (noindex)
-- https://www.findroofingpros.com/new-york/port-washington (noindex)
-- https://www.findroofingpros.com/new-york/poughkeepsie (noindex)
-- https://www.findroofingpros.com/new-york/spencerport (noindex)
-- https://www.findroofingpros.com/new-york/spring-valley (noindex)
-- https://www.findroofingpros.com/new-york/webster (noindex)
-- https://www.findroofingpros.com/north-carolina/youngsville (noindex)
-- https://www.findroofingpros.com/north-dakota/grand-forks (noindex)
-- https://www.findroofingpros.com/ohio/galena (noindex)
-- https://www.findroofingpros.com/ohio/lebanon (noindex)
-- https://www.findroofingpros.com/ohio/marietta (noindex)
-- https://www.findroofingpros.com/ohio/minerva (noindex)
-- https://www.findroofingpros.com/ohio/painesville (noindex)
-- https://www.findroofingpros.com/ohio/xenia (noindex)
-- https://www.findroofingpros.com/oklahoma/claremore (noindex)
-- https://www.findroofingpros.com/palmyra (noindex)
-- https://www.findroofingpros.com/pennsylvania/eagleville (noindex)
-- https://www.findroofingpros.com/pennsylvania/hatboro (noindex)
-- https://www.findroofingpros.com/pennsylvania/schwenksville (noindex)
-- https://www.findroofingpros.com/pennsylvania/trafford (noindex)
-- https://www.findroofingpros.com/plainview (noindex)
-- https://www.findroofingpros.com/rhode-island/johnston (noindex)
-- https://www.findroofingpros.com/south-carolina/aiken (noindex)
-- https://www.findroofingpros.com/south-carolina/ridgeland (noindex)
-- https://www.findroofingpros.com/tennessee/greeneville (noindex)
-- https://www.findroofingpros.com/texas/huffman (noindex)
-- https://www.findroofingpros.com/texas/lancaster (noindex)
-- https://www.findroofingpros.com/texas/victoria (noindex)
-- https://www.findroofingpros.com/utah/hurricane (noindex)
-- https://www.findroofingpros.com/utah/north-salt-lake (noindex)
-- https://www.findroofingpros.com/virginia/chester (noindex)
-- https://www.findroofingpros.com/virginia/chesterfield (noindex)
-- https://www.findroofingpros.com/washington/burlington (noindex)
-- https://www.findroofingpros.com/washington/kelso (noindex)
-- https://www.findroofingpros.com/washington/moses-lake (noindex)
-- https://www.findroofingpros.com/washington/wenatchee (noindex)
-- https://www.findroofingpros.com/west-virginia/clarksburg (noindex)
-- https://www.findroofingpros.com/wisconsin/two-rivers (noindex)
-
-</details>
 
 ## city-service
 
 - Candidates: 7124 (not yet checked: 0)
-- Listed: 20 (previous: 19)
-- Added: 1, removed: 0
-- Verdicts: noindex 6635, http-404 459, pass 20, http-301 9, no-count 1
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/kentucky/covington/roof-installation
-
-</details>
+- Listed: 20 (previous: 20)
+- Added: 0, removed: 0
+- Verdicts: noindex 6290, http-404 804, pass 20, http-301 9, no-count 1
 
 ## state
 
@@ -151,9 +35,214 @@ RSS feed `feed.xml`: 20 posts.
 ## state-service
 
 - Candidates: 1142 (not yet checked: 0)
-- Listed: 670 (previous: 670)
-- Added: 0, removed: 0
-- Verdicts: pass 670, noindex 471, http-404 1
+- Listed: 910 (previous: 670)
+- Added: 240, removed: 0
+- Verdicts: pass 910, noindex 225, http-404 7
+
+<details><summary>Added (240)</summary>
+
+- https://www.findroofingpros.com/alabama/asphalt-shingles
+- https://www.findroofingpros.com/alabama/flat-roofing
+- https://www.findroofingpros.com/alabama/gutter-installation-repair
+- https://www.findroofingpros.com/alaska/industrial-roofing
+- https://www.findroofingpros.com/alaska/metal-roofing
+- https://www.findroofingpros.com/alaska/roof-installation
+- https://www.findroofingpros.com/arizona/attic-insulation
+- https://www.findroofingpros.com/arizona/roof-ventilation
+- https://www.findroofingpros.com/arizona/solar-roofing
+- https://www.findroofingpros.com/arizona/wood-shake-shingles
+- https://www.findroofingpros.com/arkansas/asphalt-shingles
+- https://www.findroofingpros.com/arkansas/attic-insulation
+- https://www.findroofingpros.com/arkansas/chimney-repair-flashing
+- https://www.findroofingpros.com/arkansas/emergency-roofing
+- https://www.findroofingpros.com/arkansas/multi-family-roofing
+- https://www.findroofingpros.com/arkansas/roof-ventilation
+- https://www.findroofingpros.com/arkansas/skylight-installation
+- https://www.findroofingpros.com/arkansas/slate-roofing
+- https://www.findroofingpros.com/arkansas/storm-damage-repair
+- https://www.findroofingpros.com/arkansas/tile-roofing
+- https://www.findroofingpros.com/arkansas/wood-shake-shingles
+- https://www.findroofingpros.com/colorado/asphalt-shingles
+- https://www.findroofingpros.com/colorado/attic-insulation
+- https://www.findroofingpros.com/colorado/chimney-repair-flashing
+- https://www.findroofingpros.com/colorado/emergency-roofing
+- https://www.findroofingpros.com/colorado/foam-roofing
+- https://www.findroofingpros.com/colorado/industrial-roofing
+- https://www.findroofingpros.com/colorado/multi-family-roofing
+- https://www.findroofingpros.com/colorado/roof-ventilation
+- https://www.findroofingpros.com/colorado/skylight-installation
+- https://www.findroofingpros.com/colorado/slate-roofing
+- https://www.findroofingpros.com/colorado/solar-roofing
+- https://www.findroofingpros.com/colorado/wood-shake-shingles
+- https://www.findroofingpros.com/connecticut/attic-insulation
+- https://www.findroofingpros.com/connecticut/chimney-repair-flashing
+- https://www.findroofingpros.com/connecticut/emergency-roofing
+- https://www.findroofingpros.com/connecticut/slate-roofing
+- https://www.findroofingpros.com/delaware/emergency-roofing
+- https://www.findroofingpros.com/delaware/industrial-roofing
+- https://www.findroofingpros.com/delaware/multi-family-roofing
+- https://www.findroofingpros.com/delaware/roof-ventilation
+- https://www.findroofingpros.com/delaware/wood-shake-shingles
+- https://www.findroofingpros.com/district-of-columbia/slate-roofing
+- https://www.findroofingpros.com/hawaii/emergency-roofing
+- https://www.findroofingpros.com/hawaii/multi-family-roofing
+- https://www.findroofingpros.com/hawaii/roof-ventilation
+- https://www.findroofingpros.com/hawaii/storm-damage-repair
+- https://www.findroofingpros.com/hawaii/wood-shake-shingles
+- https://www.findroofingpros.com/idaho/chimney-repair-flashing
+- https://www.findroofingpros.com/idaho/wood-shake-shingles
+- https://www.findroofingpros.com/illinois/chimney-repair-flashing
+- https://www.findroofingpros.com/illinois/emergency-roofing
+- https://www.findroofingpros.com/illinois/foam-roofing
+- https://www.findroofingpros.com/illinois/roof-ventilation
+- https://www.findroofingpros.com/illinois/slate-roofing
+- https://www.findroofingpros.com/illinois/wood-shake-shingles
+- https://www.findroofingpros.com/indiana/attic-insulation
+- https://www.findroofingpros.com/indiana/chimney-repair-flashing
+- https://www.findroofingpros.com/indiana/industrial-roofing
+- https://www.findroofingpros.com/indiana/skylight-installation
+- https://www.findroofingpros.com/indiana/slate-roofing
+- https://www.findroofingpros.com/iowa/attic-insulation
+- https://www.findroofingpros.com/iowa/roof-ventilation
+- https://www.findroofingpros.com/iowa/solar-roofing
+- https://www.findroofingpros.com/kansas/industrial-roofing
+- https://www.findroofingpros.com/kansas/multi-family-roofing
+- https://www.findroofingpros.com/kansas/tile-roofing
+- https://www.findroofingpros.com/kansas/wood-shake-shingles
+- https://www.findroofingpros.com/kentucky/attic-insulation
+- https://www.findroofingpros.com/kentucky/chimney-repair-flashing
+- https://www.findroofingpros.com/kentucky/emergency-roofing
+- https://www.findroofingpros.com/kentucky/roof-ventilation
+- https://www.findroofingpros.com/kentucky/skylight-installation
+- https://www.findroofingpros.com/kentucky/solar-roofing
+- https://www.findroofingpros.com/kentucky/tile-roofing
+- https://www.findroofingpros.com/kentucky/wood-shake-shingles
+- https://www.findroofingpros.com/louisiana/attic-insulation
+- https://www.findroofingpros.com/louisiana/foam-roofing
+- https://www.findroofingpros.com/louisiana/multi-family-roofing
+- https://www.findroofingpros.com/maine/chimney-repair-flashing
+- https://www.findroofingpros.com/maine/gutter-installation-repair
+- https://www.findroofingpros.com/maine/skylight-installation
+- https://www.findroofingpros.com/maine/slate-roofing
+- https://www.findroofingpros.com/maine/wood-shake-shingles
+- https://www.findroofingpros.com/maryland/foam-roofing
+- https://www.findroofingpros.com/massachusetts/attic-insulation
+- https://www.findroofingpros.com/massachusetts/solar-roofing
+- https://www.findroofingpros.com/michigan/chimney-repair-flashing
+- https://www.findroofingpros.com/michigan/foam-roofing
+- https://www.findroofingpros.com/michigan/multi-family-roofing
+- https://www.findroofingpros.com/michigan/slate-roofing
+- https://www.findroofingpros.com/michigan/tile-roofing
+- https://www.findroofingpros.com/michigan/wood-shake-shingles
+- https://www.findroofingpros.com/minnesota/industrial-roofing
+- https://www.findroofingpros.com/minnesota/roof-ventilation
+- https://www.findroofingpros.com/minnesota/slate-roofing
+- https://www.findroofingpros.com/minnesota/tile-roofing
+- https://www.findroofingpros.com/minnesota/wood-shake-shingles
+- https://www.findroofingpros.com/mississippi/chimney-repair-flashing
+- https://www.findroofingpros.com/mississippi/emergency-roofing
+- https://www.findroofingpros.com/mississippi/gutter-installation-repair
+- https://www.findroofingpros.com/mississippi/multi-family-roofing
+- https://www.findroofingpros.com/mississippi/roof-ventilation
+- https://www.findroofingpros.com/mississippi/skylight-installation
+- https://www.findroofingpros.com/missouri/attic-insulation
+- https://www.findroofingpros.com/missouri/chimney-repair-flashing
+- https://www.findroofingpros.com/missouri/emergency-roofing
+- https://www.findroofingpros.com/missouri/skylight-installation
+- https://www.findroofingpros.com/missouri/slate-roofing
+- https://www.findroofingpros.com/missouri/solar-roofing
+- https://www.findroofingpros.com/missouri/tile-roofing
+- https://www.findroofingpros.com/missouri/wood-shake-shingles
+- https://www.findroofingpros.com/montana/attic-insulation
+- https://www.findroofingpros.com/montana/emergency-roofing
+- https://www.findroofingpros.com/montana/multi-family-roofing
+- https://www.findroofingpros.com/montana/slate-roofing
+- https://www.findroofingpros.com/montana/solar-roofing
+- https://www.findroofingpros.com/montana/tile-roofing
+- https://www.findroofingpros.com/montana/wood-shake-shingles
+- https://www.findroofingpros.com/nebraska/chimney-repair-flashing
+- https://www.findroofingpros.com/nebraska/foam-roofing
+- https://www.findroofingpros.com/nebraska/industrial-roofing
+- https://www.findroofingpros.com/nebraska/skylight-installation
+- https://www.findroofingpros.com/nebraska/solar-roofing
+- https://www.findroofingpros.com/nebraska/wood-shake-shingles
+- https://www.findroofingpros.com/nevada/attic-insulation
+- https://www.findroofingpros.com/nevada/foam-roofing
+- https://www.findroofingpros.com/nevada/gutter-installation-repair
+- https://www.findroofingpros.com/nevada/industrial-roofing
+- https://www.findroofingpros.com/nevada/multi-family-roofing
+- https://www.findroofingpros.com/new-hampshire/emergency-roofing
+- https://www.findroofingpros.com/new-hampshire/roof-ventilation
+- https://www.findroofingpros.com/new-hampshire/slate-roofing
+- https://www.findroofingpros.com/new-hampshire/solar-roofing
+- https://www.findroofingpros.com/new-hampshire/wood-shake-shingles
+- https://www.findroofingpros.com/new-jersey/chimney-repair-flashing
+- https://www.findroofingpros.com/new-jersey/emergency-roofing
+- https://www.findroofingpros.com/new-jersey/slate-roofing
+- https://www.findroofingpros.com/new-jersey/tile-roofing
+- https://www.findroofingpros.com/new-jersey/wood-shake-shingles
+- https://www.findroofingpros.com/new-mexico/foam-roofing
+- https://www.findroofingpros.com/north-carolina/emergency-roofing
+- https://www.findroofingpros.com/north-carolina/multi-family-roofing
+- https://www.findroofingpros.com/north-carolina/roof-ventilation
+- https://www.findroofingpros.com/north-carolina/skylight-installation
+- https://www.findroofingpros.com/north-carolina/tile-roofing
+- https://www.findroofingpros.com/north-dakota/asphalt-shingles
+- https://www.findroofingpros.com/north-dakota/emergency-roofing
+- https://www.findroofingpros.com/north-dakota/gutter-installation-repair
+- https://www.findroofingpros.com/north-dakota/industrial-roofing
+- https://www.findroofingpros.com/north-dakota/storm-damage-repair
+- https://www.findroofingpros.com/ohio/chimney-repair-flashing
+- https://www.findroofingpros.com/ohio/foam-roofing
+- https://www.findroofingpros.com/ohio/slate-roofing
+- https://www.findroofingpros.com/ohio/tile-roofing
+- https://www.findroofingpros.com/ohio/wood-shake-shingles
+- https://www.findroofingpros.com/oklahoma/chimney-repair-flashing
+- https://www.findroofingpros.com/oklahoma/foam-roofing
+- https://www.findroofingpros.com/oklahoma/roof-ventilation
+- https://www.findroofingpros.com/oklahoma/skylight-installation
+- https://www.findroofingpros.com/oklahoma/solar-roofing
+- https://www.findroofingpros.com/oregon/attic-insulation
+- https://www.findroofingpros.com/oregon/chimney-repair-flashing
+- https://www.findroofingpros.com/oregon/industrial-roofing
+- https://www.findroofingpros.com/oregon/roof-ventilation
+- https://www.findroofingpros.com/oregon/solar-roofing
+- https://www.findroofingpros.com/rhode-island/chimney-repair-flashing
+- https://www.findroofingpros.com/rhode-island/metal-roofing
+- https://www.findroofingpros.com/rhode-island/roof-installation
+- https://www.findroofingpros.com/rhode-island/roof-replacement
+- https://www.findroofingpros.com/rhode-island/skylight-installation
+- https://www.findroofingpros.com/rhode-island/wood-shake-shingles
+- https://www.findroofingpros.com/south-carolina/chimney-repair-flashing
+- https://www.findroofingpros.com/south-carolina/emergency-roofing
+- https://www.findroofingpros.com/south-carolina/roof-installation
+- https://www.findroofingpros.com/south-carolina/skylight-installation
+- https://www.findroofingpros.com/south-dakota/asphalt-shingles
+- https://www.findroofingpros.com/south-dakota/emergency-roofing
+- https://www.findroofingpros.com/south-dakota/flat-roofing
+- https://www.findroofingpros.com/south-dakota/gutter-installation-repair
+- https://www.findroofingpros.com/south-dakota/industrial-roofing
+- https://www.findroofingpros.com/south-dakota/roof-installation
+- https://www.findroofingpros.com/south-dakota/wood-shake-shingles
+- https://www.findroofingpros.com/tennessee/attic-insulation
+- https://www.findroofingpros.com/tennessee/chimney-repair-flashing
+- https://www.findroofingpros.com/tennessee/foam-roofing
+- https://www.findroofingpros.com/tennessee/multi-family-roofing
+- https://www.findroofingpros.com/tennessee/roof-ventilation
+- https://www.findroofingpros.com/tennessee/skylight-installation
+- https://www.findroofingpros.com/tennessee/slate-roofing
+- https://www.findroofingpros.com/tennessee/solar-roofing
+- https://www.findroofingpros.com/tennessee/tile-roofing
+- https://www.findroofingpros.com/tennessee/wood-shake-shingles
+- https://www.findroofingpros.com/texas/solar-roofing
+- https://www.findroofingpros.com/utah/attic-insulation
+- https://www.findroofingpros.com/utah/emergency-roofing
+- https://www.findroofingpros.com/utah/gutter-installation-repair
+- https://www.findroofingpros.com/utah/roof-installation
+- https://www.findroofingpros.com/utah/roof-ventilation
+- https://www.findroofingpros.com/utah/slate-roofing
+
+</details>
 
 ## hubs
 
@@ -165,15 +254,9 @@ RSS feed `feed.xml`: 20 posts.
 ## static
 
 - Candidates: 31 (not yet checked: 0)
-- Listed: 25 (previous: 24)
-- Added: 1, removed: 0
+- Listed: 25 (previous: 25)
+- Added: 0, removed: 0
 - Verdicts: pass 25, noindex 3, no-canonical 2, http-301 1
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/roofing-faq
-
-</details>
 
 ## profiles
 
