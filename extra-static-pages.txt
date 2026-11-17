@@ -10,3 +10,4 @@ tools/roof-color-visualizer
 tools/storm-chaser-scam-check
 tools/rain-on-metal-roof
 tools/metal-roof-vs-shingles-cost
+roofing-faq
