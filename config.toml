@@ -24,6 +24,9 @@ max_transient_ratio = 0.2
 min_contractors = 3          # from the page's microdata numberOfItems (max 9 per results page)
 require_index = true         # robots meta / X-Robots-Tag must not say noindex
 require_self_canonical = true
+# Results pages with their own guide copy: listed even below min_contractors (audit 18 Nov).
+# Keep in sync with $frpThinKeep in BD widgets 44 + 75 (h10/a18_ewing.py).
+thin_exempt = ["new-jersey/ewing-township"]
 
 [guard]
 # Never publish a sitemap that shrank by more than this share in one run.

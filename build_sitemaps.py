@@ -204,6 +204,8 @@ def check_url(url, cfg, group, limiter, deadline):
     if time.monotonic() > deadline:
         return url, None
     min_c = group.get("min_contractors", cfg["rules"]["min_contractors"])
+    if urlsplit(url).path.strip("/").lower() in cfg["rules"].get("thin_exempt", []):
+        min_c = 0  # page has its own guide copy, so it isn't thin even with few listings
     status, headers, body = fetch(url, cfg, limiter)
     info = inspect(url, status, headers, body)
     ok, reason = verdict(url, info, cfg["rules"], min_c)
