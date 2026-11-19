@@ -1,6 +1,6 @@
-# Sitemap build 2026-11-18
+# Sitemap build 2026-11-19
 
-Checked 1 pages this run (0 transient, kept previous verdict).
+Checked 2545 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -28,15 +28,9 @@ RSS feed `feed.xml`: 20 posts.
 ## posts
 
 - Candidates: 54 (not yet checked: 0)
-- Listed: 54 (previous: 53)
-- Added: 1, removed: 0
+- Listed: 54 (previous: 54)
+- Added: 0, removed: 0
 - Verdicts: pass 54
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/blog/thumbtack-alternatives-for-roofers
-
-</details>
 
 ## state-service
 
