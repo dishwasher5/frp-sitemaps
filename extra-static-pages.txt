@@ -11,3 +11,4 @@ tools/storm-chaser-scam-check
 tools/rain-on-metal-roof
 tools/metal-roof-vs-shingles-cost
 roofing-faq
+mobile-home-roofing
