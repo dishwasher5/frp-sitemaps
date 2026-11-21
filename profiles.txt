@@ -2648,6 +2648,7 @@ florida/clermont/mag-multiservices-repairs
 florida/clermont/sunset-sealcoating-asphalt-paving
 florida/clermont/the-brothers-that-just-do-gutters
 florida/cocoa/boulais-roofing-co
+florida/cocoa/boulais-roofing-company
 florida/cocoa/eagle-roofing-and-construction-llc
 florida/cocoa/mgm-contracting-inc
 florida/cocoa/stephen-smith-inc
@@ -4415,7 +4416,7 @@ georgia/valdosta/bryant-roofing
 georgia/valdosta/eagle-eye-roofing
 georgia/valdosta/mackey-lumber-co
 georgia/valdosta/platinum-roofing
-georgia/valdosta/pyramid-roofing-company-valdosta-%E2%84%A2
+georgia/valdosta/pyramid-roofing-company-valdosta
 georgia/villa-rica/absolute-roof-and-home-solutions
 georgia/villa-rica/ga-1-exteriors-llc-pcs
 georgia/villa-rica/precision-pressure-washing
@@ -4663,7 +4664,7 @@ illinois/burr-ridge/asi-construction
 illinois/burr-ridge/elite-exteriors-adjustment-group-roof-installation-replacement-repair-experts
 illinois/burr-ridge/home-resto
 illinois/burr-ridge/keystone-exteriors
-illinois/burr-ridge/o-danny-boy-builders-chicago%E2%80%8B
+illinois/burr-ridge/o-danny-boy-builders-chicago
 illinois/burr-ridge/silver-phoenix-inc
 illinois/canton/dean-construction
 illinois/canton/holthaus-companies-inc
@@ -4704,7 +4705,7 @@ illinois/chicago/buk-roofing
 illinois/chicago/capital-roofing-edgebrook
 illinois/chicago/capital-roofing-portage-park
 illinois/chicago/chicago-brick-co
-illinois/chicago/chicago-custom-remodeling-inc-30-years-in-business-%E2%9C%94%EF%B8%8F
+illinois/chicago/chicago-custom-remodeling-inc-30-years-in-business
 illinois/chicago/chicago-flat-roof-company
 illinois/chicago/chicago-home-remodeling-group-llc
 illinois/chicago/chicago-promar-roofing
@@ -6937,6 +6938,7 @@ massachusetts/hyannis/care-free-homes-roofing-siding-windows
 massachusetts/hyannis/coastal-roofing-siding
 massachusetts/hyannis/fabio-inc
 massachusetts/hyannis/gutter-pro-enterprises
+massachusetts/hyannis/roof-side-pro
 massachusetts/hyannis/united-constructors-inc
 massachusetts/indian-orchard/d-p-carney-construction-inc
 massachusetts/indian-orchard/mmc-specialty-roofing-inc
@@ -10814,7 +10816,7 @@ ohio/cincinnati/half-price-roof
 ohio/cincinnati/inspector-roof-llc
 ohio/cincinnati/jk-roofing-and-construction-llc
 ohio/cincinnati/karl-mattes-co-inc
-ohio/cincinnati/lady-on-the-roof%C2%AD%C2%AD
+ohio/cincinnati/lady-on-the-roof
 ohio/cincinnati/lee-sheet-metal-roofing-inc
 ohio/cincinnati/mad-ladder-roofing
 ohio/cincinnati/midwest-roofing-technicians
@@ -14525,7 +14527,7 @@ texas/hutto/bestex-solutions
 texas/hutto/constructx-pro-exteriors
 texas/hutto/fults-roofing-company
 texas/hutto/ics-quality-roofing-llc
-texas/hutto/new-r%C3%BCf-residential-and-commercial-roofing-hutto
+texas/hutto/new-ruf-residential-and-commercial-roofing-hutto
 texas/idalou/resolve-roofing
 texas/irving/911-exteriors-roofing-and-construction
 texas/irving/a-l-foam-llc
@@ -16107,7 +16109,7 @@ washington/moses-lake/ace-services-wa-llc
 washington/moses-lake/altamount-roofing-llc
 washington/moses-lake/bomax-contracting-llc
 washington/mount-vernon/fl-construction
-washington/mount-vernon/peaks-northwest-roofing-%F0%9F%90%90
+washington/mount-vernon/peaks-northwest-roofing
 washington/mukilteo/america-1st-roofing-builders-inc
 washington/mukilteo/america-1st-roofing-builders-inc-6924
 washington/mukilteo/james-king-roofing-llc
@@ -16304,7 +16306,7 @@ washington/vancouver/woodpecker-roofing-remodel-llc
 washington/wenatchee/columbia-roofing-exteriors
 washington/wenatchee/cruz-construction-services-llc
 washington/wenatchee/hi-grade-roofing
-washington/winthrop/peaks-northwest-roofing-%F0%9F%90%90
+washington/winthrop/peaks-northwest-roofing
 washington/winthrop/ttt-roofing
 washington/woodinville/dgo-roofing-and-gutter-services-in-washington
 washington/woodinville/klim-roofing-and-construction-inc
