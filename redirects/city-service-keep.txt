@@ -1,0 +1,26 @@
+# City+service pages with local copy that stay indexed (KEEP in h10/p2_cityservice_noindex.py).
+# Candidates for the city-service sitemap even when BD's own file drops them (21 Nov 2026). Keep in sync with KEEP.
+arizona/tucson/commercial-roofing
+arizona/tucson/flat-roofing
+arizona/tucson/roof-repair
+arizona/tucson/roof-replacement
+arizona/tucson/tile-roofing
+california/san-diego/roof-repair
+florida/jacksonville/metal-roofing
+florida/tampa/roof-repair
+illinois/aurora/flat-roofing
+illinois/aurora/roof-repair
+illinois/chicago/roof-repair
+indiana/indianapolis/commercial-roofing
+kentucky/covington/roof-installation
+kentucky/louisville/roof-repair
+nevada/las-vegas/roof-repair
+new-mexico/albuquerque/roof-repair
+north-carolina/charlotte/commercial-roofing
+north-carolina/charlotte/roof-repair
+north-carolina/raleigh/commercial-roofing
+north-carolina/raleigh/roof-repair
+north-carolina/raleigh/roof-replacement
+oklahoma/oklahoma-city/roof-repair
+tennessee/nashville/roof-repair
+texas/austin/residential-roofing
