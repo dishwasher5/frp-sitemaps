@@ -49,36 +49,9 @@ RSS feed `feed.xml`: 20 posts.
 ## static
 
 - Candidates: 32 (not yet checked: 0)
-- Listed: 26 (previous: 41)
-- Added: 1, removed: 16
+- Listed: 26 (previous: 26)
+- Added: 0, removed: 0
 - Verdicts: pass 26, noindex 3, no-canonical 2, http-301 1
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/mobile-home-roofing
-
-</details>
-
-<details><summary>Removed (16)</summary>
-
-- https://www.findroofingpros.com/arizona/tucson/commercial-roofing
-- https://www.findroofingpros.com/arizona/tucson/flat-roofing
-- https://www.findroofingpros.com/arizona/tucson/roof-repair
-- https://www.findroofingpros.com/arizona/tucson/roof-replacement
-- https://www.findroofingpros.com/arizona/tucson/tile-roofing
-- https://www.findroofingpros.com/california/san-diego/roof-repair
-- https://www.findroofingpros.com/florida/jacksonville/metal-roofing
-- https://www.findroofingpros.com/florida/tampa/roof-repair
-- https://www.findroofingpros.com/indiana/indianapolis/commercial-roofing
-- https://www.findroofingpros.com/kentucky/louisville/roof-repair
-- https://www.findroofingpros.com/nevada/las-vegas/roof-repair
-- https://www.findroofingpros.com/north-carolina/raleigh/commercial-roofing
-- https://www.findroofingpros.com/north-carolina/raleigh/roof-repair
-- https://www.findroofingpros.com/north-carolina/raleigh/roof-replacement
-- https://www.findroofingpros.com/oklahoma/oklahoma-city/roof-repair
-- https://www.findroofingpros.com/tennessee/nashville/roof-repair
-
-</details>
 
 ## profiles
 
