@@ -1,6 +1,6 @@
-# Sitemap build 2026-11-22
+# Sitemap build 2026-11-23
 
-Checked 3 pages this run (0 transient, kept previous verdict).
+Checked 2730 pages this run (0 transient, kept previous verdict).
 
 ## city
 
