@@ -6,7 +6,14 @@
   <description>Roofing cost guides, state licensing guides and homeowner advice from Find Roofing Pros.</description>
   <language>en-us</language>
   <atom:link href="https://www.findroofingpros.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 21 Nov 2026 07:39:00 -0600</lastBuildDate>
+  <lastBuildDate>Tue, 24 Nov 2026 07:39:00 -0600</lastBuildDate>
+  <item>
+    <title>Local Roofer vs Storm Chaser: How to Tell the Difference (2026)</title>
+    <link>https://www.findroofingpros.com/blog/local-roofer-vs-storm-chaser</link>
+    <guid isPermaLink="true">https://www.findroofingpros.com/blog/local-roofer-vs-storm-chaser</guid>
+    <pubDate>Tue, 24 Nov 2026 07:39:00 -0600</pubDate>
+    <description>Local roofer vs storm chaser, side by side: address, license, insurance, deductible offers, contracts and warranty, using FTC, BBB and state AG advice.</description>
+  </item>
   <item>
     <title>Standing Seam vs Exposed Fastener Metal Roofing: Cost and Lifespan (2026)</title>
     <link>https://www.findroofingpros.com/blog/standing-seam-vs-exposed-fastener-metal-roof</link>
@@ -139,13 +146,6 @@
     <guid isPermaLink="true">https://www.findroofingpros.com/blog/roof-decking-101-what-s-under-your-shingles-and-why-it-matters</guid>
     <pubDate>Wed, 16 Sep 2026 11:21:00 -0500</pubDate>
     <description>Roof decking is the plywood or board layer that holds your roof together. Learn what it does, signs it is failing and when it needs replacing.</description>
-  </item>
-  <item>
-    <title>Why Your Roof Leaks in Heavy Rain (And What to Do Immediately)</title>
-    <link>https://www.findroofingpros.com/blog/why-your-roof-leaks-in-heavy-rain-and-what-to-do-immediately</link>
-    <guid isPermaLink="true">https://www.findroofingpros.com/blog/why-your-roof-leaks-in-heavy-rain-and-what-to-do-immediately</guid>
-    <pubDate>Fri, 11 Sep 2026 10:20:00 -0500</pubDate>
-    <description>Water coming through your ceiling during a storm? Here's why it's happening and what to do in the first hour.</description>
   </item>
 </channel>
 </rss>

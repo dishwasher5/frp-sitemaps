@@ -1,4 +1,4 @@
-# Sitemap build 2026-11-23
+# Sitemap build 2026-11-24
 
 Checked 2730 pages this run (0 transient, kept previous verdict).
 
@@ -28,9 +28,15 @@ RSS feed `feed.xml`: 20 posts.
 ## posts
 
 - Candidates: 59 (not yet checked: 0)
-- Listed: 56 (previous: 56)
-- Added: 0, removed: 0
-- Verdicts: pass 56, scheduled 3
+- Listed: 57 (previous: 56)
+- Added: 1, removed: 0
+- Verdicts: pass 57, scheduled 2
+
+<details><summary>Added (1)</summary>
+
+- https://www.findroofingpros.com/blog/local-roofer-vs-storm-chaser
+
+</details>
 
 ## state-service
 
