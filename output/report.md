@@ -1,6 +1,6 @@
-# Sitemap build 2026-11-24
+# Sitemap build 2026-11-25
 
-Checked 2730 pages this run (0 transient, kept previous verdict).
+Checked 4345 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -14,7 +14,7 @@ Checked 2730 pages this run (0 transient, kept previous verdict).
 - Candidates: 25100 (not yet checked: 0)
 - Listed: 24 (previous: 24)
 - Added: 0, removed: 0
-- Verdicts: noindex 24449, http-404 598, pass 24, no-canonical 19, http-301 9, no-count 1
+- Verdicts: noindex 24449, http-404 556, no-canonical 61, pass 24, http-301 9, no-count 1
 
 ## state
 
@@ -28,15 +28,9 @@ RSS feed `feed.xml`: 20 posts.
 ## posts
 
 - Candidates: 59 (not yet checked: 0)
-- Listed: 57 (previous: 56)
-- Added: 1, removed: 0
+- Listed: 57 (previous: 57)
+- Added: 0, removed: 0
 - Verdicts: pass 57, scheduled 2
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/blog/local-roofer-vs-storm-chaser
-
-</details>
 
 ## state-service
 
