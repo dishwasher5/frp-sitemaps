@@ -6,7 +6,14 @@
   <description>Roofing cost guides, state licensing guides and homeowner advice from Find Roofing Pros.</description>
   <language>en-us</language>
   <atom:link href="https://www.findroofingpros.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 24 Nov 2026 07:39:00 -0600</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 07:39:00 -0600</lastBuildDate>
+  <item>
+    <title>Roof Overlay vs Tear-Off: Cost, Code Limits and When Each Makes Sense (2026)</title>
+    <link>https://www.findroofingpros.com/blog/roof-overlay-vs-tear-off</link>
+    <guid isPermaLink="true">https://www.findroofingpros.com/blog/roof-overlay-vs-tear-off</guid>
+    <pubDate>Thu, 26 Nov 2026 07:39:00 -0600</pubDate>
+    <description>Roof overlay vs tear-off: what each costs, the two-layer code limit, shingle warranty rules, decking, insurance and when each makes sense.</description>
+  </item>
   <item>
     <title>Local Roofer vs Storm Chaser: How to Tell the Difference (2026)</title>
     <link>https://www.findroofingpros.com/blog/local-roofer-vs-storm-chaser</link>
@@ -139,13 +146,6 @@
     <guid isPermaLink="true">https://www.findroofingpros.com/blog/do-you-need-to-leave-your-house-during-a-roof-replacement</guid>
     <pubDate>Sat, 19 Sep 2026 06:25:00 -0500</pubDate>
     <description>Wondering if you need to leave during a roof replacement? Here's what the noise, dust, and timeline actually look like, and when it's worth staying elsewhere.</description>
-  </item>
-  <item>
-    <title>Roof Decking 101: What's Under Your Shingles and Why It Matters</title>
-    <link>https://www.findroofingpros.com/blog/roof-decking-101-what-s-under-your-shingles-and-why-it-matters</link>
-    <guid isPermaLink="true">https://www.findroofingpros.com/blog/roof-decking-101-what-s-under-your-shingles-and-why-it-matters</guid>
-    <pubDate>Wed, 16 Sep 2026 11:21:00 -0500</pubDate>
-    <description>Roof decking is the plywood or board layer that holds your roof together. Learn what it does, signs it is failing and when it needs replacing.</description>
   </item>
 </channel>
 </rss>

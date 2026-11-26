@@ -1,6 +1,6 @@
-# Sitemap build 2026-11-25
+# Sitemap build 2026-11-26
 
-Checked 4345 pages this run (0 transient, kept previous verdict).
+Checked 2730 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -28,9 +28,15 @@ RSS feed `feed.xml`: 20 posts.
 ## posts
 
 - Candidates: 59 (not yet checked: 0)
-- Listed: 57 (previous: 57)
-- Added: 0, removed: 0
-- Verdicts: pass 57, scheduled 2
+- Listed: 58 (previous: 57)
+- Added: 1, removed: 0
+- Verdicts: pass 58, scheduled 1
+
+<details><summary>Added (1)</summary>
+
+- https://www.findroofingpros.com/blog/roof-overlay-vs-tear-off
+
+</details>
 
 ## state-service
 
