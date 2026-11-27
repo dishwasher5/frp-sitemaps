@@ -1,6 +1,6 @@
-# Sitemap build 2026-11-26
+# Sitemap build 2026-11-27
 
-Checked 2730 pages this run (0 transient, kept previous verdict).
+Checked 2733 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -27,16 +27,10 @@ RSS feed `feed.xml`: 20 posts.
 
 ## posts
 
-- Candidates: 59 (not yet checked: 0)
-- Listed: 58 (previous: 57)
-- Added: 1, removed: 0
-- Verdicts: pass 58, scheduled 1
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/blog/roof-overlay-vs-tear-off
-
-</details>
+- Candidates: 60 (not yet checked: 0)
+- Listed: 58 (previous: 58)
+- Added: 0, removed: 0
+- Verdicts: pass 58, scheduled 2
 
 ## state-service
 
@@ -54,17 +48,23 @@ RSS feed `feed.xml`: 20 posts.
 
 ## static
 
-- Candidates: 32 (not yet checked: 0)
+- Candidates: 33 (not yet checked: 0)
 - Listed: 26 (previous: 26)
 - Added: 0, removed: 0
-- Verdicts: pass 26, noindex 3, no-canonical 2, http-301 1
+- Verdicts: pass 26, noindex 4, no-canonical 2, http-301 1
 
 ## profiles
 
-- Candidates: 16818 (not yet checked: 0)
-- Listed: 15021 (previous: 15021)
-- Added: 0, removed: 0
-- Verdicts: pass 15021, http-301 1718, noindex 56, canonical-elsewhere 17, http-404 6
+- Candidates: 16812 (not yet checked: 0)
+- Listed: 15022 (previous: 15021)
+- Added: 1, removed: 0
+- Verdicts: pass 15022, http-301 1718, noindex 56, canonical-elsewhere 10, http-404 6
+
+<details><summary>Added (1)</summary>
+
+- https://www.findroofingpros.com/north-carolina/wilmington/province-roofing-and-construction-llc-19644
+
+</details>
 
 ## Thin pages Google can still index
 
