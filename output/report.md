@@ -1,6 +1,6 @@
-# Sitemap build 2026-11-27
+# Sitemap build 2026-11-28
 
-Checked 2733 pages this run (0 transient, kept previous verdict).
+Checked 9000 pages this run (0 transient, kept previous verdict).
 
 ## city
 
@@ -14,7 +14,7 @@ Checked 2733 pages this run (0 transient, kept previous verdict).
 - Candidates: 25100 (not yet checked: 0)
 - Listed: 24 (previous: 24)
 - Added: 0, removed: 0
-- Verdicts: noindex 24449, http-404 556, no-canonical 61, pass 24, http-301 9, no-count 1
+- Verdicts: noindex 24449, http-404 453, no-canonical 164, pass 24, http-301 9, no-count 1
 
 ## state
 
@@ -56,15 +56,9 @@ RSS feed `feed.xml`: 20 posts.
 ## profiles
 
 - Candidates: 16812 (not yet checked: 0)
-- Listed: 15022 (previous: 15021)
-- Added: 1, removed: 0
+- Listed: 15022 (previous: 15022)
+- Added: 0, removed: 0
 - Verdicts: pass 15022, http-301 1718, noindex 56, canonical-elsewhere 10, http-404 6
-
-<details><summary>Added (1)</summary>
-
-- https://www.findroofingpros.com/north-carolina/wilmington/province-roofing-and-construction-llc-19644
-
-</details>
 
 ## Thin pages Google can still index
 
